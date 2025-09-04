@@ -1,0 +1,952 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202503 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.portfolio.monitor98.biz.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2009                
+POS_TIME 2667                
+POS_VISITOR 22296               
+POS_DAY 25237               
+POS_DOMAIN 3366                
+POS_LOGIN 3598                
+POS_ROBOT 3753                
+POS_WORMS 4220                
+POS_EMAILSENDER 4351                
+POS_EMAILRECEIVER 4494                
+POS_SESSION 25873               
+POS_SIDER 26040               
+POS_FILETYPES 4629                
+POS_DOWNLOADS 4754                
+POS_OS 4802                
+POS_BROWSER 4944                
+POS_SCREENSIZE 5409                
+POS_UNKNOWNREFERER 5483                
+POS_UNKNOWNREFERERBROWSER 6015                
+POS_ORIGIN 6142                
+POS_SEREFERRALS 6277                
+POS_PAGEREFS 6421                
+POS_SEARCHWORDS 6569                
+POS_KEYWORDS 6721                
+POS_MISC 2331                
+POS_ERRORS 6780                
+POS_CLUSTER 3454                
+POS_SIDER_404 6903                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250401070255 1 0 9416323569837
+FirstTime 0
+LastTime 20250330122026
+LastUpdate 20250402044551 1 0 0 0 0
+TotalVisits 81                  
+TotalUnique 74                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 75                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 10384 16 18 7388
+1 6 6 14982 3 10 11171
+2 1 1 7887 17 18 7394
+3 3 3 5348 1001 1093 1442882
+4 1 1 2497 0 0 0
+5 0 0 0 2 4 5387
+6 5 5 12485 15 19 21614
+7 1 1 2497 8 10 23841
+8 4 4 9988 12 12 12164
+9 17 77 24797019 8 11 26849
+10 1 1 2497 3 3 16168
+11 6 14 12485 2 7 16556
+12 1 1 2497 10 21 1798154
+13 10 129 59044056 1 30 10262
+14 8 8 19976 1 9 394
+15 7 7 17479 2 22 21486
+16 5 5 12485 3 9 512293
+17 2 2 4994 14 23 85541
+18 16 211 99246206 2 13 9555
+19 2 6 24703 5 8 9536
+20 6 72 15786456 1002 1104 1057141
+21 4 12 7491 1 4 126309
+22 3 7 27200 2 5 813
+23 0 0 0 2 4 8674
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 111 575 199071612
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+bot[\s_+:,\.\;\/\\-] 12 1133513 20250319172130 0
+custo 8 63096 20250331230251 0
+no_user_agent 8 63096 20250329125846 0
+YandexImages/ 7 2977791 20250305204958 0
+archive\.org_bot 4 9988 20250317093944 0
+curl 3 23661 20250326184825 0
+netcraft 2 15774 20250306114757 0
+YandexBot/ 2 5701 20250327075558 0
+Googlebot/ 2 4994 20250301055749 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+Unknown 9 2691 0 0
+png 464 198809273 0 0
+html 102 259648 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+linuxandroid 189 20
+macosx 5 5
+linux 6 2
+win7 1 1
+Unknown 47 47
+win10 327 36
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 20
+chrome101.0.4951.67 1 1
+firefox71.0 1 1
+Unknown 1 1
+chrome94.0.4606.61 6 6
+chrome95.0.4638.69 2 2
+chrome125.0.6422.60 5 1
+chrome100.0.4896.75 7 7
+firefox122.0 2 2
+chrome133.0.0.0 184 7
+chrome79.0.3945.79 5 1
+chrome121.0.0.0 1 1
+chrome83.0.4103.61 1 1
+chrome101.0.0.0 1 1
+chrome134.0.0.0 180 12
+chrome60.0.3112.107 3 3
+chrome59.0.3071.125 9 9
+chrome114.0.0.0 4 4
+chrome131.0.0.0 115 4
+firefox24.0 1 1
+mozilla 46 46
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20250317092153
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20250305035323
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20250329184429
+Mozilla/5.0_(compatible) 20250329061200
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20250328014521
+Adobe_Application_Manager_2.0 20250319135045
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Adobe_Application_Manager_2.0 20250319135045
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 87 87
+From1 3 3
+From2 0 0
+From3 0 0
+From4 21 485
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+404 2333 930218
+429 2 324
+403 8 3140
+302 2 276
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 572
+/tmp/db_dump.sql 4 -
+/hidden/.aws/credentials 4 -
+/metadata/instance/compute/location 4 -
+/tmp/.aws/credentials 4 -
+/api/aws/cognito 4 -
+/_profiler/phpinfo 4 -
+/aws/eks/config.json 4 -
+/wp 6 www.google.com
+/feed/ 2 -
+/test/db.sql 4 -
+/wp-includes/ID3/license.txt 2 -
+/api-gateway/.env.bak 4 -
+/%28%2A%29/%2A+%2A+%22+%2A+%22%2A/ 2 -
+/169.254.169.254/latest/meta-data/network/interfaces/macs/mac/subnet-id 4 -
+/keys/public.pem 4 -
+/aws/sts/secrets.json 4 -
+/dev/db.sql 4 -
+/.dump.tar 4 -
+/api/v1/proxy 4 -
+/mysqldump.sql 4 -
+/aws/ses_smtp.json 4 -
+/s3/config.json 4 -
+/tmp/.aws/keys.json 4 -
+/aws_secret.txt 4 -
+/hidden/.aws/config 4 -
+/169.254.169.254/latest/meta-data/iam/ 4 -
+/aws/credentials.json 4 -
+/k8s/.env 4 -
+/config/aws_keys.json 4 -
+/dev/execute.php 4 -
+/admin/execute.php 4 -
+/169.254.169.254/latest/meta-data/network/interfaces/macs/mac/ 4 -
+/.git/db.sql 4 -
+/aws/iam/temporary-credentials 4 -
+/aws/metadata/iam/security-credentials 4 -
+/admin/test 8 -
+/s3-credentials.json 4 -
+/settings.json 4 -
+/graphql/api 4 -
+/appsettings.Production.json 1 -
+/admin/db_dump.php 4 -
+/.git/refs/heads/master 4 -
+/169.254.169.254/latest/meta-data/iam/security-credentials/aws-elasticbeanstalk-ec2-role 4 -
+/api/internal-aws 4 -
+/.git/refs/remotes/origin/main 4 -
+/images/sites/backand/blog/2.png 1 https://portfolio.monitor98.biz.ua/sites.html
+/terminal.php 4 -
+/.s3cfg.bak 4 -
+/aws/cloudfront/secrets.json 4 -
+/admin/debug 8 -
+/public/s3-bucket.json 4 -
+/tmp/backup.zip 4 -
+/db_backup.sql 4 -
+/aws/token.json 4 -
+/k8s/secrets/aws 4 -
+/169.254.169.254/latest/meta-data/iam/security-credentials/ecsTaskExecutionRole/ 4 -
+/api-gateway/swagger.json 4 -
+/public/bucket.json 4 -
+/symfony/.env 4 -
+/images/sites/backand/blog/4.png 1 https://portfolio.monitor98.biz.ua/sites.html
+/aws/s3/public.json 4 -
+/aws/api-gateway/secrets.json 8 -
+/internal/aws/iam/keys.json 4 -
+/tmp/.aws/secrets.json 4 -
+/aws/s3/credentials.json 4 -
+/.aws_lambda/secrets.json 4 -
+/tmp/aws_keys.json 4 -
+/.git/index 4 -
+/jenkins.yml 4 -
+/config.js 4 -
+/.git/backup 4 -
+/api/db.sql 4 -
+/test/backup.zip 4 -
+/aws/iam/config.json 4 -
+/dump.tar.gz 8 -
+/api/test 4 -
+/.s3cfg 4 -
+/sitemap.xml 1 -
+/s3/secrets.json 4 -
+/wp-config.php.swp 4 -
+/.env.dev 4 -
+/api/aws/credentials 4 -
+/api/aws/lambda 4 -
+/.cloudfront/keys.json 4 -
+/169.254.169.254/latest/meta-data/iam/security-credentials/ec2-instance-role 4 -
+/settings.js 4 -
+/.git/refs/remotes/origin/master 4 -
+/aws/s3/tokens.yml 4 -
+/sitemap.xml.gz 2 -
+/169.254.169.254/latest/user-data 4 -
+/.env.local.json 4 -
+/db.sql 8 -
+/2019/wp-includes/wlwmanifest.xml 2 -
+/vault/.env 4 -
+/db_backup.dump 4 -
+/api/v1/aws/keys 4 -
+/public/execute.php 4 -
+/internal-api/aws/metadata 4 -
+/.backup.tar 4 -
+/api/test.php 4 -
+/.well-known/credentials.json 4 -
+/backup/.env 4 -
+/169.254.170.2/v2/credentials/ecsTaskExecutionRole 4 -
+/aws/config.ini 4 -
+/config/aws.js 4 -
+/aws.json 4 -
+/wp1/wp-includes/wlwmanifest.xml 2 -
+/vendor/.aws 4 -
+/storage/oauth-public.key 4 -
+/metadata/instance/compute/plan 4 -
+/.env 4 -
+/aws/iam/credentials.json 4 -
+/metadata/instance/compute/vmId 4 -
+/aws/ses.json 4 -
+/s3/.aws 4 -
+/169.254.169.254/latest/meta-data/local-ipv4 4 -
+/.github/workflows/build.yml 4 -
+/docker/.env 4 -
+/cloudfront/config.json 4 -
+/.aws/credentials 4 -
+/backup_old.zip 4 -
+/aws_config.js 4 -
+/169.254.170.2/latest/meta-data/ 4 -
+/smtp.json 4 -
+/aws/api-gateway/tokens.json 4 -
+/secrets/secret.key 4 -
+//code.jquery.com/jquery-3.6.0.js 14 -
+/aws/iam/secrets.json 4 -
+/internal/aws/metadata.json 4 -
+/internal/169.254.169.254/latest/meta-data/iam/security-credentials/ 4 -
+//code.jquery.com/ui/1.13.2/jquery-ui.js 14 -
+/api/aws/sns 4 -
+/graphql/dev 4 -
+/tmp/.env 4 -
+/aws/.env.ses 4 -
+/private/aws.json 4 -
+/dev/shell.php 4 -
+/dev/backup.zip 4 -
+/config/aws.json 4 -
+/ssl/private.key 4 -
+/api-gateway/v2/swagger.json 4 -
+/169.254.170.2/v2/metadata/ 4 -
+/console 4 -
+/metadata/instance/compute/zone 4 -
+/smtp/backup.json 4 -
+/metadata/instance/network/interface/0/ipv4/ipAddress/0/privateIpAddress 4 -
+/run.php 4 -
+/backups/.env 4 -
+/beta/backup.zip 4 -
+/vendor/.aws/secrets.json 4 -
+/info.php 4 -
+/metadata/instance/compute/resourceGroupName 4 -
+/db/.env 4 -
+/certs/fullchain.pem 4 -
+/.dump.sql 4 -
+/aws/keys_backup.json 4 -
+/tmp/execute.php 4 -
+/api/debug.php 8 -
+/private/smtp.json 4 -
+/public/.aws/credentials 4 -
+/.env.prod 4 -
+/aws/cognito/token.json 4 -
+/aws/s3/public-bucket.json 4 -
+/api-gateway/config.yml 4 -
+/api-gateway/v1/openapi.json 4 -
+/169.254.169.254/latest/meta-data/network/interfaces/macs/ 4 -
+/vendor/aws/.env 4 -
+/169.254.169.254/latest/meta-data/public-hostname 4 -
+/graphql 16 -
+/internal-api/aws/credentials 4 -
+/.git/HEAD 8 -
+/aws/env_vars.txt 4 -
+/.aws_lambda/config.json 4 -
+/api-gateway/secrets.json 4 -
+/settings.env 4 -
+/debug 4 -
+/api-gateway/staging/swagger.json 4 -
+/.backup/mysql.sql 4 -
+/test.php 8 -
+/debug.php 4 -
+/smtp/private.json 4 -
+/old/config.json 4 -
+/graphql/playground 4 -
+/admin/test.php 4 -
+/api/v1/keys 4 -
+/data/.env 4 -
+/169.254.169.254/latest/meta-data/placement/availability-zone 4 -
+/hidden/.env 4 -
+/web/wp-includes/wlwmanifest.xml 2 -
+/.backup.sql 4 -
+/.aws_config.js 4 -
+/config/.htaccess 4 -
+/dump.bak 4 -
+/ansible/.env 4 -
+/smtp/keys.json 4 -
+/phpinfo.php 4 -
+/.env.json 4 -
+/aws_keys.js 4 -
+/aws/metadata/iam/security-credentials/ 4 -
+/aws/metadata 8 -
+/graphql-explorer 4 -
+/aws_creds.js 4 -
+/169.254.169.254/latest/meta-data/placement/ 4 -
+/metadata/instance/compute/subscriptionId 4 -
+/test/execute.php 4 -
+/storage/oauth-private.key 4 -
+/aws_keys.json 4 -
+/config/parameters.yml 4 -
+/tmp/aws_secrets.json 4 -
+/.well-known/security.txt 4 -
+/api/execute 4 -
+/public/backup.zip 4 -
+/aws/s3/tokens.json 4 -
+/k8s/eks/credentials 4 -
+/api/aws/iam 4 -
+/temp 3 www.google.com
+/test/.env 4 -
+/robots.txt 19 -
+/aws/s3/keys.json 4 -
+/admin/db.sql 4 -
+/.aws/s3/keys 4 -
+/.s3cfg.old 4 -
+/public/uploads/.bucket 4 -
+/cloudfront/keys.json 4 -
+/admin/phpinfo.php 4 -
+/api-gateway/.env 4 -
+/gitlab-ci.yml 4 -
+/ssh/id_rsa.pub 4 -
+/.aws_secrets.json 4 -
+/169.254.170.2/v2/credentials/ 4 -
+/s3/presigned-url 4 -
+/keys/private.pem 4 -
+/.aws/metadata/iam 4 -
+/shell.php 4 -
+/ses.json 4 -
+/api-gateway/.env.dev 4 -
+/command.php 4 -
+/aws_secrets.js 4 -
+/admin/shell.php 4 -
+/api/v1/aws/token 4 -
+/s3/presigned-urls 4 -
+/latest/meta-data 4 -
+/169.254.170.2/v2/credentials/container-role 4 -
+/wordpress 6 www.google.com
+/k8s/eks/secrets/aws 4 -
+/api/execute.php 4 -
+/.github/workflows/deploy.yml 4 -
+/s3-credentials.bak 4 -
+/beta/db.sql 4 -
+/s3/.env 4 -
+/aws/api-gateway.json 4 -
+/api-gateway/dev/swagger.json 4 -
+/aws/metadata/iam 8 -
+/.aws_secrets.js 4 -
+/vendor/htmlawed/htmlawed/htmLawedTest.php 1 -
+/admin/.env 4 -
+/169.254.169.254/latest/meta-data/network/interfaces/macs/mac/vpc-id 4 -
+/aws/iam/temp-creds.json 4 -
+/wordpress/wp-admin/setup-config.php 2 -
+/dev/test.php 4 -
+/.env.backup 4 -
+/api/key 4 -
+/.aws/ecs-task-credentials 4 -
+/vendor/.aws/credentials 4 -
+/.backup/pgsql.dump 4 -
+/api/token.json 4 -
+/smtp.env 4 -
+/config/settings.json 4 -
+/portfolio 3 www.google.com
+/console.php 4 -
+/shell 4 -
+/.aws_lambda/token.json 4 -
+/2020/wp-includes/wlwmanifest.xml 2 -
+/internal-api/iam/credentials 4 -
+/api-gateway/.env.local 4 -
+/aws/ecs/task-credentials 4 -
+/.aws/metadata 4 -
+/database.bak 4 -
+/latest/meta-data/iam/security-credentials/ 4 -
+/new 3 www.google.com
+/config/.env 4 -
+/public/shell.php 4 -
+/aws/metadata.json 4 -
+/.s3/secrets.json 4 -
+/wordpress/.env 4 -
+/api-gateway/.env.staging 4 -
+/graphql/test 4 -
+/private/aws_credentials.json 4 -
+/.cloudfront/secrets.json 4 -
+/pgsql.dump 4 -
+/.git/config~ 4 -
+/certs/privkey.pem 4 -
+/public/uploads/s3-keys.json 4 -
+/env 1 -
+/old/.env 4 -
+/secret/.env 4 -
+/backup.tar.gz 4 -
+/.db_backup.tar.gz 4 -
+/.well-known/aws.json 4 -
+/.git/config.bak 4 -
+/latest/user-data 4 -
+/admin/api/graphql 4 -
+/.vscode/sftp.json 1 -
+/api/db_backup.sql 4 -
+/169.254.169.254/latest/meta-data/ami-id 4 -
+/backup.sql 4 -
+/.backup.zip 4 -
+/aws/cognito/config.json 4 -
+/test/wp-includes/wlwmanifest.xml 2 -
+/api/rce 4 -
+/images/sites/backand/blog/7.png 1 https://portfolio.monitor98.biz.ua/sites.html
+/test/shell.php 4 -
+/aws/s3/.env 4 -
+/graphiql 4 -
+/ecs/task-credentials.json 4 -
+/s3/public/keys 4 -
+/.s3cfg~ 4 -
+//wp-content/plugins/fix/up.php 1 -
+/images/sites/backand/blog/5.png 1 https://portfolio.monitor98.biz.ua/sites.html
+/aws/sts/config.json 4 -
+/wp-content/plugins/backup-backup/includes/backup-heart.php 2 -
+/beta/execute.php 4 -
+/api/backup.zip 4 -
+/.git/execute.php 4 -
+/.backup/db.sql 4 -
+/.settings.json 4 -
+/api/aws/s3 4 -
+/app/.env 4 -
+/api/v1/credentials 4 -
+/tmp/shell.php 4 -
+/tmp/.aws/config 4 -
+/public/db.sql 4 -
+/.dump 4 -
+/rce.php 4 -
+/.travis.yml 4 -
+/aws/iam/role-chain.json 4 -
+/.env.prod.json 4 -
+/laravel/.env 4 -
+/.backup 4 -
+/api/graphql 4 -
+/public/s3.json 4 -
+/id_rsa.pub 4 -
+/db.dump 4 -
+/internal/admin 4 -
+/beta/shell.php 4 -
+/public/.aws/config 4 -
+/dump.sql 8 -
+/latest/meta-data/iam/info 4 -
+/169.254.170.2/latest/meta-data/iam/security-credentials/ 4 -
+/api/shell.php 4 -
+/shop/wp-includes/wlwmanifest.xml 2 -
+/config/config.yml 4 -
+/aws/api-gateway/keys.json 8 -
+/docker-compose.override.yml 4 -
+/aws_credentials.txt 4 -
+/graphql/query 4 -
+/.aws/s3/secrets 4 -
+/api/.env 4 -
+/aws/ecs/task-credentials.json 4 -
+/config/config.json 4 -
+/api-gateway/v2/openapi.json 4 -
+/metadata/instance/compute/ 4 -
+/config/parameters.json 4 -
+/.aws_creds.json 4 -
+/169.254.169.254/latest/meta-data/hostname 4 -
+/vendor/aws/secrets.json 4 -
+/.env.staging.json 4 -
+/kubernetes/metadata 4 -
+/mysql.sql 4 -
+/s3/keys.json 4 -
+/aws_lambda/handler.js 4 -
+/images/player/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(228).png 4 https://portfolio.monitor98.biz.ua/android.html
+/aws/eks/secrets.json 4 -
+/public/db_dump.sql 4 -
+/private/.env 4 -
+/api/aws/cloudfront 4 -
+/169.254.169.254/latest/meta-data/public-ipv4 4 -
+/backend/.env 4 -
+/.aws_keys.json 4 -
+/api/key.json 4 -
+/aws/iam/temporary.json 4 -
+/.database.sql 4 -
+/metadata/instance/network/interface/0/ipv4/ipAddress/0/publicIpAddress 4 -
+/wordpress/wp-includes/wlwmanifest.xml 2 -
+/images/player/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(229).png 3 https://portfolio.monitor98.biz.ua/android.html
+/.aws_lambda 4 -
+/aws_secrets.json 4 -
+/admin/graphql 4 -
+/aws/api-gateway/config.json 8 -
+/core/.env 4 -
+/public/.s3cfg 4 -
+/admin/rce.php 4 -
+/public/storage.json 4 -
+/images/sites/backand/blog/3.png 1 https://portfolio.monitor98.biz.ua/sites.html
+/169.254.169.254/latest/meta-data/ 4 -
+/.aws/config 4 -
+/blog 3 www.google.com
+/aws/lambda/config.json 4 -
+/.env.production 4 -
+/ses/keys.json 4 -
+/backup.tar 4 -
+/terraform/.env 4 -
+/aws/api-gateway/openapi.json 4 -
+/aws/.env.prod 4 -
+/execute.php 4 -
+/api/aws/ses 4 -
+/.aws/ecs-task-credentials.json 4 -
+/pg_dump.sql 4 -
+/aws/lambda/secrets.json 4 -
+/database.sql 8 -
+/cloudfront/api-keys.json 4 -
+/api/db_dump.php 4 -
+/ssl/cert.pem 4 -
+/.git/info/exclude 4 -
+/metadata/instance/compute/tags 4 -
+/s3/.aws/credentials 4 -
+/.backup.tar.gz 4 -
+/api/bash 4 -
+/.db_backup.tar 4 -
+/.db_backup 4 -
+/aws-api 4 -
+/aws/iam/keys.json 4 -
+/169.254.169.254/latest/meta-data/iam/security-credentials/ 4 -
+/.env.dev.json 4 -
+/vendor/aws/keys.json 4 -
+/aws/iam/role-assume 4 -
+/ssh/id_rsa 4 -
+/.database.bak 4 -
+/aws/cloudfront/config.json 4 -
+/admin/debug.php 8 -
+/.cloudfront/config.json 4 -
+/email/smtp_config.json 4 -
+/api/aws/token 4 -
+/public/aws_keys.json 4 -
+/dev/.env 4 -
+/metadata/instance/compute/name 4 -
+/aws_smtp.json 4 -
+/api/run 4 -
+/.db_backup.sql 4 -
+/backup.bak 4 -
+/api-gateway/config.json 4 -
+/aws_lambda/token.json 4 -
+/email.json 4 -
+/.git/refs/heads/main 4 -
+/logs/debug.log 4 -
+/169.254.169.254/latest/meta-data/iam/info/ 4 -
+/metadata/instance/compute/platformFaultDomain 4 -
+/k8s/eks/token.json 4 -
+/internal/aws/credentials 4 -
+/aws/s3/credentials.bak 4 -
+/admin/secret 4 -
+/admin/command.php 4 -
+/s3/presigned-links 4 -
+/.database 4 -
+/azure-pipelines.yml 4 -
+/graphql/console 4 -
+/aws/iam/temp-keys 4 -
+/admin/db.php 4 -
+/id_rsa 4 -
+/vendor/aws/credentials 4 -
+/test 7 www.google.com
+/vendor/.env 4 -
+/public/aws_secrets.json 4 -
+/vendor/aws/config 4 -
+/s3/.env.bak 4 -
+/.dump.tar.gz 4 -
+/blog/wp-includes/wlwmanifest.xml 2 -
+/.s3/config.json 4 -
+/admin/run.php 4 -
+/site/wp-includes/wlwmanifest.xml 2 -
+/images/sites/backand/blog/1.png 1 https://portfolio.monitor98.biz.ua/sites.html
+/aws/s3/credentials.yml 4 -
+/api-gateway/keys.json 4 -
+/ecs/task-credentials 4 -
+/.env.local 4 -
+/sftp-config.json 1 -
+/aws/iam/ecs-task-credentials.json 4 -
+/aws/iam/assume-role.json 4 -
+/.gitignore 4 -
+/aws-admin 4 -
+/api/aws/keys 4 -
+/debug.log 4 -
+/admin/terminal.php 4 -
+/s3/presigned 4 -
+/config/config.env 4 -
+/aws/api-gateway/swagger.json 4 -
+/backup 3 www.google.com
+/.git/config 19 -
+/.gitmodules 4 -
+/api/debug 12 -
+/kubernetes/eks/secrets.json 4 -
+/ads.txt 6 -
+/api/command 4 -
+/.git/shell.php 4 -
+/config/dev.json 4 -
+/secrets/aws.json 4 -
+/api-gateway/openapi.json 4 -
+/config/smtp.json 4 -
+/eks/secrets/iam 4 -
+/aws/cognito/secrets.json 4 -
+/eks/metadata 4 -
+/.circleci/config.yml 4 -
+/s3/.aws/config.json 4 -
+/cms/wp-includes/wlwmanifest.xml 2 -
+/vendor/.aws/config 4 -
+/.database.tar.gz 4 -
+/api/v1/aws/credentials 4 -
+/api-gateway/v1/swagger.json 4 -
+/.git/logs/HEAD 4 -
+/s3-bucket-list.json 4 -
+/.aws/metadata/iam/security-credentials/ 4 -
+/vendor/.aws/keys.json 4 -
+/.env.js 4 -
+/aws_lambda/secrets.json 4 -
+/k8s/metadata 4 -
+/admin/graphql/explore 4 -
+/api-gateway/production/swagger.json 4 -
+/.git/config.old 4 -
+/.git/.env 4 -
+/bash.php 4 -
+/.s3/keys.json 4 -
+/email/credentials.json 4 -
+/api/v1/token 4 -
+/169.254.169.254/latest/meta-data/instance-type 4 -
+/169.254.169.254/latest/meta-data/instance-id 4 -
+/2021/wp-includes/wlwmanifest.xml 2 -
+/k8s/secrets/iam 4 -
+/glpi/vendor/htmlawed/htmlawed/htmLawedTest.php 1 -
+/images/sites/backand/blog/6.png 1 https://portfolio.monitor98.biz.ua/sites.html
+/data/aws/credentials 4 -
+/images/sites/backand/blog/8.png 1 https://portfolio.monitor98.biz.ua/sites.html
+/error.log 4 -
+/dump.zip 4 -
+/s3/.aws/config 4 -
+/public/.env 4 -
+/docker-compose.yml 4 -
+/s3-bucket.json 4 -
+/aws/s3/config.json 4 -
+/tmp/error.log 4 -
+/internal-api/aws/iam 4 -
+/kubernetes/.env 4 -
+/config/settings.env 4 -
+/cloudfront/secrets.json 4 -
+/wp/wp-includes/wlwmanifest.xml 2 -
+/s3/public/credentials 4 -
+/169.254.169.254/latest/meta-data/iam/security-credentials/aws-sdk-credentials/ 4 -
+/public/uploads/.s3cfg 4 -
+/wp-admin/setup-config.php 2 -
+/logs/error.log 4 -
+/xmlrpc.php 2 -
+/aws/s3/secrets.json 4 -
+/.aws/s3/tokens 4 -
+/backup.zip 8 -
+/.git/dump.sql 4 -
+/public/.aws/secrets.json 4 -
+/aws/s3/private.json 4 -
+/old 3 www.google.com
+/metadata/instance/compute/vmSize 4 -
+/config/.htpasswd 4 -
+/.config.js 4 -
+/hidden/aws_keys.json 4 -
+/api-gateway/.env.production 4 -
+/api-gateway/config.yaml 4 -
+/s3-access.json 4 -
+/google9b09df96d82be0d4.html 1 -
+/aws_lambda/config.json 4 -
+/aws/s3/public-buckets.json 4 -
+/api/token 4 -
+/metadata/instance/network/interface/0/ipv4/ipAddress/0/ 4 -
+/.aws_lambda/handler.js 4 -
+/api/aws/api-gateway 4 -
+/tmp/db.sql 4 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 75
+77.239.160.207 12 196 73069077 20250324114805
+135.232.20.19 4 115 59031571 20250311133235
+194.50.16.252 2 2 4994 20250303102356
+207.154.231.247 2 2 4994 20250323131616
+64.227.167.67 2 2 4994 20250318163349
+157.245.249.56 2 2 4994 20250329061200
+128.199.55.187 2 2 4994 20250316141507
+138.197.136.163 2 2 4994 20250320144024
+64.227.153.186 2 2 4994 20250309153907
+139.59.12.232 2 2 4994 20250320162243
+47.82.9.92 1 1 2497 20250309085233
+87.236.176.236 1 1 2497 20250327214540
+74.125.210.37 1 1 3709 20250325182216
+199.45.154.127 1 1 2497 20250304012617
+18.134.146.89 1 1 2497 20250326063145
+18.170.30.202 1 1 2497 20250322173821
+176.53.217.193 1 1 2497 20250320033629
+176.53.218.255 1 1 2497 20250318014049
+206.168.34.94 1 1 2497 20250329184429
+199.45.155.72 1 1 2497 20250328170857
+13.50.105.121 1 1 299 20250317092153
+185.247.137.34 1 1 2497 20250327163445
+176.53.219.214 1 1 2497 20250319012956
+18.205.151.112 1 1 2497 20250311112723
+66.249.81.133 1 1 2497 20250322205633
+185.247.137.80 1 1 2497 20250328014521
+3.129.194.44 1 1 299 20250317092153
+13.60.163.176 1 1 299 20250317092146
+167.172.74.170 1 1 7887 20250327023003
+43.131.23.19 1 1 2497 20250319155324
+23.178.112.104 1 1 299 20250317092153
+162.142.125.213 1 1 2497 20250329184412
+66.102.9.165 1 1 2497 20250312091737
+43.131.46.8 1 1 2497 20250319135045
+104.197.69.115 0 1 7702 
+209.38.153.198 2 2 4994 20250316143602
+44.214.107.154 1 1 2497 20250303001107
+88.155.11.30 2 72 34097266 20250325182212
+34.219.26.189 2 2 598 20250317092153
+47.82.10.229 1 1 2497 20250309085228
+206.168.34.45 1 1 2497 20250328195510
+66.249.93.37 1 1 3709 20250325182216
+3.238.102.238 2 2 4994 20250310063950
+66.249.83.74 1 1 2497 20250312091738
+88.155.5.86 1 9 0 20250323132046
+199.45.155.108 1 1 2497 20250303222051
+46.96.28.186 1 1 2497 20250330122026
+50.19.167.206 1 1 2497 20250318220746
+205.169.39.143 2 6 24703 20250317092416
+18.175.141.144 1 1 2497 20250324081353
+162.142.125.214 1 1 2497 20250303182704
+207.154.208.167 2 2 4994 20250318153853
+18.222.153.216 1 1 299 20250317092146
+45.90.61.43 1 1 2497 20250318013033
+3.235.124.171 1 1 2497 20250321110504
+3.83.123.217 2 2 4994 20250321215653
+18.141.225.64 1 1 299 20250317092147
+119.13.83.137 1 1 2497 20250318183934
+47.82.10.217 1 1 2497 20250310094541
+66.249.93.39 2 2 6206 20250325182215
+47.82.10.221 1 1 2497 20250306075250
+159.223.85.11 1 1 7887 20250318004852
+89.104.101.110 1 1 2497 20250320032502
+23.178.112.214 1 1 299 20250317092146
+88.154.5.4 1 32 7879628 20250322205630
+134.209.150.159 2 2 4994 20250314142853
+134.209.88.120 2 2 4994 20250301134934
+145.220.91.19 2 2 4994 20250330114432
+74.125.210.39 2 2 4994 20250325182131
+34.123.170.104 1 4 14504 20250317092402
+164.92.204.114 2 2 4994 20250314154114
+176.53.217.144 1 1 2497 20250319014125
+134.199.209.255 2 2 4994 20250315112722
+46.96.60.53 2 54 24739928 20250312091734
+66.249.92.138 1 1 354 20250305035323
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 27
+20250301 2 2 4994 1
+20250303 5 5 12485 5
+20250304 1 1 2497 1
+20250305 1 1 354 1
+20250306 1 1 2497 1
+20250308 5 130 65122831 1
+20250309 4 4 9988 3
+20250310 4 4 9988 3
+20250311 5 116 59034068 2
+20250312 4 56 24744922 3
+20250314 4 4 9988 2
+20250315 2 2 4994 1
+20250316 4 4 9988 2
+20250317 12 20 49600 10
+20250318 10 14 50069 8
+20250319 4 4 9988 4
+20250320 7 11 37188 5
+20250321 3 3 7491 2
+20250322 8 82 15788953 5
+20250323 3 11 4994 2
+20250324 2 10 2497 2
+20250325 7 77 34113387 5
+20250326 1 1 2497 1
+20250327 3 3 12881 3
+20250328 3 3 7491 3
+20250329 4 4 9988 3
+20250330 2 2 4994 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+0s-30s 77
+30mn-1h 1
+30s-2mn 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 8
+/ 82 213037 66 61
+/sites.html 12 24995 5 10
+/.well-known/acme-challenge/qSbhPwel9kEAyq0Rms5bHFhWJaznmISfOUIbFn_IINE 5 1495 5 4
+/.well-known/acme-challenge/xkP3fpBOO4XQumauP1XpS6ZveEV2isEBq52wODGF-l4 4 1196 3 4
+/adaptive.html 3 7930 0 1
+/android.html 2 6924 0 0
+/wordpres.html 2 6408 1 0
+/googlea57ed5d778191fe0.html 1 354 1 1
+END_SIDER

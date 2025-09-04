@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <title>Backand</title>
+    <style>
+    /* CSS-стили */
+    .name {
+        text-align: center;
+        font-size: 50px;
+        color: #824237;
+    }
+    
+    body {
+        background-color: #faf6eb; 
+        width: 850px;
+        margin: 20px auto;
+        padding: 0 10px;
+        border: 5px solid #edeef7;
+        box-shadow: 0 0 15px 5px rgba(44, 82, 100, 0.75);
+    }
+    
+    .header {
+        background-color: #d0f7f3;
+        padding: 15px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 15px 5px rgba(44, 82, 100, 0.75);
+        position: relative;
+        z-index: 1;
+    }
+    
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    @media screen and (min-width: 769px) {
+        .portfolio-img {
+            flex: 0 0 calc(33.33% - 10px); /* 33.33% width for 3 images in a row with margins */
+            max-width: calc(33.33% - 10px); /* 33.33% width minus margins */
+            margin: 5px; /* Добавим небольшие отступы между изображениями */
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .portfolio-img {
+            width: 100%; /* Одно изображение на всю ширину */
+            max-width: 100%; /* Ограничение ширины изображения на маленьких экранах */
+            margin: 10px auto; /* Центрирование изображений */
+        }
+    }
+    
+    .portfolio-img {
+        height: 150px;
+        padding: 3px;
+        cursor: pointer; /* Добавляем стиль указателя для показа, что изображение можно нажать */
+    }
+    
+    .video-link {
+        display: block;
+        margin-bottom: 20px;
+        font-size: 30px;
+        color: blue;
+    }
+    
+    .video-link:hover {
+        color: red;
+    }
+    
+    .video-container {
+        text-align: center;
+        font-size: 45px;
+    }
+    
+    /* Стили для модального окна */
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 9999;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    .modal-content {
+        display: block;
+        margin: auto;
+        max-width: 80%;
+        max-height: 80%;
+    }
+    
+    .modal-content img {
+        width: 100%;
+        height: auto;
+    }
+
+     #realestate {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    #realestate a {
+        color: #3498db;
+    }
+
+    #realestate a:hover {
+    color: #2c3e50; /* Цвет при наведении */
+}
+</style>
+</head>
+<body>
+    <div class="header">
+        <div class="name">
+            <h2>BACKAND</h2>
+            <h2>php, js, sql</h2>
+        </div>
+    </div>
+    <br><br>
+
+
+
+
+
+
+    <div class="container">
+        <h2>"Блог. Старі та нові назви вулиць. Дніпро.(Laravel)" <p><a id="realestate" href="http://blog.monitor98.biz.ua" target="_blank">https://blog.monitor98.biz.ua</a></p></h2>  
+        
+        <h5>Опис проєкту:
+
+Сайт — блог про перейменовані вулиці Дніпра.  <br>
+
+🔹 Backend (Laravel):<br>
+
+Розроблена система керування контентом (CRUD) для постів, категорій, тегів, користувачів.
+
+Використана база даних - SQLite для збереження інформації.
+
+Реалізована автентифікація користувачів.
+
+Додана можливість вподобань для постів.<br>
+
+🔹 Frontend:<br>
+
+Адаптивна верстка на HTML, CSS, Bootstrap, AdminLTE, Summernote.
+
+Динамічне виведення даних через Blade-шаблони.
+
+Інтерактивні елементи (вподобання, переходи) з використанням JavaScript.</h5>
+        
+               
+        <br><br>
+
+        <!-- Оставляем изображения -->
+        <img class="portfolio-img" src="images/sites/backand/blog/1.png" alt="фото 1">
+        <img class="portfolio-img" src="images/sites/backand/blog/2.png" alt="Фото 2">
+        <img class="portfolio-img" src="images/sites/backand/blog/3.png" alt="фото 3">
+        <img class="portfolio-img" src="images/sites/backand/blog/4.png" alt="Фото 4">
+        <img class="portfolio-img" src="images/sites/backand/blog/5.png" alt="фото 5">
+        <img class="portfolio-img" src="images/sites/backand/blog/6.png" alt="Фото 6">
+        <img class="portfolio-img" src="images/sites/backand/blog/7.png" alt="фото 7">
+        <img class="portfolio-img" src="images/sites/backand/blog/8.png" alt="Фото 8">
+        <br>
+    
+        <!-- Убираем закомментированные блоки с другими изображениями -->
+    </div>
+    <p><a id="realestate" href="http://blog.monitor98.biz.ua/" target="_blank">https://blog.monitor98.biz.ua</a></p><hr>
+
+
+
+
+
+
+    <div class="container">
+      
+        <h2>"Фріланс платформа для студентів"<p><a id="realestate" href="http://sm.monitor98.biz.ua/" target="_blank">https://sm.monitor98.biz.ua/</a></p></h2>  
+        
+        <h5>Цей сайт написан на PHP , з використанням JS , створена БД - MySQL - 3 таблиці , та зв'зки між ними.<br>Будьякий користувач, замовник чи виконавець реєструється , в подальшому авторизується.<br><br>Після цього потрапляє в особистий кабінет. <br><hr>В особистому кабінеті:<br><br>Замовник:<br>- може залишити своє повідомлення<br>- підтвердити ставку виконавця<br>- перейти до всіх оголошеннь<br>- в своєму особистому кабінеті , замовник бачить тільки свої зроблені оголошення, та кількість ставок , які зробили виконавці на це оголошення.<br><br>Виконавець:<br>- може перейти на всі оголошення , вони діють 1 тиждень<br>- вибрати оголошення , та подивитись його в повному вигляді.<br>- може зробити ставку. В такому випадку --- замовник побачить що зроблена ставка, та інші ставки , та вибере виконавця. <br><br><hr>Коли замовник-студент , вибрав виконавця - він може бачити його контакти , та зв'язатись із ним.</h5>
+        
+        
+        
+        <br><br>
+ 
+
+        <!-- Оставляем изображения -->
+        <img class="portfolio-img" src="images/sites/backand/1.png" alt="фото 1">
+        <img class="portfolio-img" src="images/sites/backand/2.png" alt="Фото 2">
+        <img class="portfolio-img" src="images/sites/backand/3.png" alt="фото 3">
+        <img class="portfolio-img" src="images/sites/backand/4.png" alt="Фото 4">
+        <img class="portfolio-img" src="images/sites/backand/5.png" alt="фото 5">
+        <img class="portfolio-img" src="images/sites/backand/6.png" alt="Фото 6">
+        <img class="portfolio-img" src="images/sites/backand/7.png" alt="фото 7">
+        <img class="portfolio-img" src="images/sites/backand/8.png" alt="Фото 8">
+        <img class="portfolio-img" src="images/sites/backand/9.png" alt="фото 9">
+        <img class="portfolio-img" src="images/sites/backand/10.png" alt="Фото 10">
+        <img class="portfolio-img" src="images/sites/backand/11.png" alt="фото 11">
+        <img class="portfolio-img" src="images/sites/backand/12.png" alt="Фото 12">
+        <br>
+    
+        <!-- Убираем закомментированные блоки с другими изображениями -->
+    </div>
+    <p><a id="realestate" href="http://sm.monitor98.biz.ua/" target="_blank">https://sm.monitor98.biz.ua/</a></p><hr>
+
+    
+
+    <div class="container">
+        <h2>"Вільні таксисти та клієнти в місті Дніпро" <p><a id="realestate" href="https://taxi-dnipro.monitor98.biz.ua/" target="_blank">https://taxi-dnipro.monitor98.biz.ua/</a></p></h2>  
+        
+        <h5>Цей сайт написан на PHP , з використанням JS , створена БД - MySQL - 2 таблиці , та зв'зки між ними.<br>Будьякий користувач, замовник чи виконавець реєструється , в подальшому авторизується.<br><br>Після цього потрапляє в особистий кабінет. <br><hr>В особистому кабінеті:<br><br>Замовник:<br>- може вибрати район міста Дніпро , та побачити всіх водіїв , які залишили заявку - що вони вільні , в реальному часі - зараз.<br><br>Водій:<br>- вказуе - де він знаходится зараз , та - відображеється його пост (дійсний 1 годину) - підтягується марка авто, колір, та ціна , яка буде за цю поїздку.<br><br> Якщо водії є , і замовник вибрав - він бачить контакти водія , і може зв'язатись та узгодити , домовитись про поїздку.
+        </h5>
+        
+        
+        
+        <br><br>
+
+        <!-- Оставляем изображения -->
+        <img class="portfolio-img" src="images/sites/backand/taxi/1.png" alt="фото 1">
+        <img class="portfolio-img" src="images/sites/backand/taxi/2.png" alt="Фото 2">
+        <img class="portfolio-img" src="images/sites/backand/taxi/3.png" alt="фото 3">
+        <img class="portfolio-img" src="images/sites/backand/taxi/4.png" alt="Фото 4">
+        <img class="portfolio-img" src="images/sites/backand/taxi/5.png" alt="фото 5">
+        <img class="portfolio-img" src="images/sites/backand/taxi/6.png" alt="Фото 6">
+        <img class="portfolio-img" src="images/sites/backand/taxi/7.png" alt="фото 7">
+        <img class="portfolio-img" src="images/sites/backand/taxi/8.png" alt="Фото 8">
+        <img class="portfolio-img" src="images/sites/backand/taxi/9.png" alt="фото 9">
+        <img class="portfolio-img" src="images/sites/backand/taxi/10.png" alt="Фото 10">
+        <img class="portfolio-img" src="images/sites/backand/taxi/11.png" alt="фото 11">
+        <br>
+    
+        <!-- Убираем закомментированные блоки с другими изображениями -->
+    </div>
+    <p><a id="realestate" href="https://taxi-dnipro.monitor98.biz.ua/" target="_blank">https://taxi-dnipro.monitor98.biz.ua/</a></p><hr>
+
+
+
+
+
+
+    <div class="container">
+        <h2>"SPA на SvelteKit з адаптивним дизайном" <p><a id="realestate" href="https://sveltekit-blog-n88u.onrender.com/" target="_blank">https://sveltekit-blog-n88u.onrender.com/</a></p></h2>  
+        
+        <h5>SvelteKit_Blog – SPA на SvelteKit з адаптивним дизайном. 
+           Використовується база даних MySQL, реалізований CRUD для постів. 
+           Проєкт розміщений на безкоштовному хостингу Render і оновлюється через Git.
+        </h5>
+        
+        
+        
+        <br><br>
+
+        <!-- Оставляем изображения -->
+        <img class="portfolio-img" src="images/sites/backand/svelte/s1.png" alt="фото 1">
+        <img class="portfolio-img" src="images/sites/backand/svelte/s2.png" alt="Фото 2">
+        <img class="portfolio-img" src="images/sites/backand/svelte/s3.png" alt="фото 3">
+        <img class="portfolio-img" src="images/sites/backand/svelte/s4.png" alt="Фото 4">
+        <img class="portfolio-img" src="images/sites/backand/svelte/s5.png" alt="фото 5">
+        <img class="portfolio-img" src="images/sites/backand/svelte/s6.png" alt="Фото 6">
+        <br>
+    
+        <!-- Убираем закомментированные блоки с другими изображениями -->
+    </div>
+    <p><a id="realestate" href="https://sveltekit-blog-n88u.onrender.com/" target="_blank">https://sveltekit-blog-n88u.onrender.com/</a></p><hr>
+
+
+
+
+
+
+
+
+
+
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image">
+    </div>
+
+    <script>
+       // Получаем все элементы с классом "portfolio-img"
+       const images = document.querySelectorAll('.portfolio-img');
+       
+       // Получаем модальное окно и изображение внутри него
+       const modal = document.getElementById('modal');
+       const modalImage = document.getElementById('modal-image');
+       
+       // Обработчик клика для каждого изображения
+       images.forEach(function(image) {
+           image.addEventListener('click', function() {
+               // Устанавливаем src изображения внутри модального окна
+               modalImage.src = this.src;
+               
+               // Открываем модальное окно
+               modal.style.display = 'block';
+           });
+       });
+       
+       // Обработчик клика для закрытия модального окна
+       const closeBtn = document.querySelector('.close');
+       closeBtn.addEventListener('click', function() {
+           // Закрываем модальное окно
+           modal.style.display = 'none';
+       });
+       
+       // Обработчик клика для закрытия модального окна при клике на задний фон
+       window.addEventListener('click', function(event) {
+           if (event.target === modal) {
+               modal.style.display = 'none';
+           }
+       });
+   </script>
+</body>
+</html>

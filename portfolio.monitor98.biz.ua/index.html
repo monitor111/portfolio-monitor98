@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Monitor98</title>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <style>
+    body {
+      background-color: #faebc3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      flex-direction: column; /* Новый стиль для размещения элементов в столбце */
+    }
+
+    .container {
+      margin-bottom: 40px; /* Немного отступаем от цветового пикера */
+    }
+
+    .main_btn_top,
+    .main_btn_button {
+      display: flex;
+      justify-content: center;
+    }
+
+    .main_btn_top a,
+    .main_btn_button a {
+      margin: 10px;
+    }
+
+    #red, #green, #blue {
+    float: left;
+    clear: left;
+    width: 300px;
+    margin: 15px;
+  }
+  #swatch {
+    width: 100px;
+    height: 100px;
+    margin-top: 18px;
+    margin-left: 350px;
+    background-image: none;
+  }
+  #red .ui-slider-range { background: #ef2929; }
+  #red .ui-slider-handle { border-color: #ef2929; }
+  #green .ui-slider-range { background: #8ae234; }
+  #green .ui-slider-handle { border-color: #8ae234; }
+  #blue .ui-slider-range { background: #729fcf; }
+  #blue .ui-slider-handle { border-color: #729fcf; }
+
+#colorPicker {
+   margin-top: 10px;
+    border: 2px solid #ccc;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#textb {
+   color: rgb(150, 51, 36);
+   font-weight: bolder;
+   text-align: center;
+   font-size: 34px;
+}
+
+ @media only screen and (max-width: 600px) {
+        #swatch {
+            width: 80px; /* Измените размер блока swatch на узких экранах */
+            height: 80px; /* Измените размер блока swatch на узких экранах */
+            margin-left: 0; /* Уменьшите горизонтальный отступ блока swatch на узких экранах */
+        }
+
+        #colorPicker {
+            margin: 10px; /* Уменьшите отступ у блока colorPicker на узких экранах */
+        }
+
+        #textb {
+            font-size: 24px; /* Уменьшите размер шрифта на узких экранах */
+        }
+
+         .main_btn_top,
+        .main_btn_button {
+            flex-direction: column; /* Измените направление флекс-контейнеров на столбец */
+            align-items: center; /* Центрируйте элементы по горизонтали */
+        }
+
+        .main_btn_top a,
+        .main_btn_button a {
+            margin: 5px; /* Уменьшите отступы между кнопками на узких экранах */
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+      #swatch {
+            width: 50px; /* Измените размер блока swatch на узких экранах */
+            height: 50px; /* Измените размер блока swatch на узких экранах */
+            margin-left: 0; /* Уменьшите горизонтальный отступ блока swatch на узких экранах */
+        }
+
+        #colorPicker {
+            margin: 10px; /* Уменьшите отступ у блока colorPicker на узких экранах */
+        }
+
+        #textb {
+            font-size: 24px; /* Уменьшите размер шрифта на узких экранах */
+        }
+
+         .main_btn_top,
+        .main_btn_button {
+            flex-direction: column; /* Измените направление флекс-контейнеров на столбец */
+            align-items: center; /* Центрируйте элементы по горизонтали */
+        }
+
+        .main_btn_top a,
+        .main_btn_button a {
+            margin: 5px; /* Уменьшите отступы между кнопками на узких экранах */
+        }
+    }
+
+  </style>
+}
+</head>
+<body>
+  <div id="colorPicker">
+    <p class="ui-state-default ui-corner-all ui-helper-clearfix" style="padding:10px; text-align: center; font-weight: bold;">
+            Цей Colorpicker - зручніший ніж у Crome
+    </p>
+
+    <div id="red"></div>
+    <div id="green"></div>
+    <div id="blue"></div>
+
+    <!-- Добавленные блоки для отображения значений -->
+    <div id="red-val"></div>
+    <div id="green-val"></div>
+    <div id="blue-val"></div>
+
+    <div id="swatch" class="ui-widget-content ui-corner-all"></div>
+  </div><hr>
+
+  <div class="container">
+   <h1 id="textb">Перехід до моїх сайтів</h1>
+    <div class="main_btn_top">
+      <a href="android.html" target="_blank"><img src="images/main_img/android.png" alt="Android Projects"></a>
+      <a href="adaptive.html" target="_blank"><img src="images/main_img/adaptive.png" alt="adaptive Projects"></a>
+    </div>
+
+    <div class="main_btn_button">
+      <a href="sites.html" target="_blank"><img src="images/main_img/new_button.png" alt="Projects"></a>
+      <a href="wordpres.html" target="_blank"><img src="images/main_img/wordpress.png" alt="wordpres Projects"></a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+    $(function() {
+        function hexFromRGB(r, g, b) {
+            var hex = [
+                r.toString(16),
+                g.toString(16),
+                b.toString(16)
+            ];
+            $.each(hex, function(nr, val) {
+                if (val.length === 1) {
+                    hex[nr] = "0" + val;
+                }
+            });
+            return hex.join("").toUpperCase();
+        }
+
+        function refreshSwatch() {
+            var red = $("#red").slider("value"),
+                green = $("#green").slider("value"),
+                blue = $("#blue").slider("value"),
+                hex = hexFromRGB(red, green, blue);
+            $("#swatch").css("background-color", "#" + hex);
+
+            // Отображение текущих значений
+            $("#red-val").text("Red: " + red);
+            $("#green-val").text("Green: " + green);
+            $("#blue-val").text("Blue: " + blue);
+
+            // Установка цвета фона для #colorPicker
+            var backgroundColor = "rgb(" + red + "," + green + "," + blue + ")";
+            $("#colorPicker").css("background-color", backgroundColor);
+        }
+
+        // Инициализация слайдеров
+        $("#red, #green, #blue").slider({
+            orientation: "horizontal",
+            range: "min",
+            max: 255,
+            value: 127,
+            slide: refreshSwatch,
+            change: refreshSwatch
+        });
+
+        // Установка начальных значений
+        $("#red").slider("value", 119);
+        $("#green").slider("value", 186);
+        $("#blue").slider("value", 183);
+        
+        // Вызов refreshSwatch() при загрузке страницы для начальной установки цвета
+        refreshSwatch();
+    });
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,240 @@
+ <!DOCTYPE html>
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <title>Android</title>
+   <style>
+       /* CSS-стили */
+       .name {
+           text-align: center;
+           font-size: 50px;
+           color: #824237;
+       }
+       
+     body {
+         background-color: #faf6eb; 
+         width: 850px;
+         margin: 20px auto;
+         padding: 0 10px;
+         border: 5px solid #edeef7;
+         box-shadow: 0 0 15px 5px rgba(44, 82, 100, 0.75);
+     }
+     
+       .header {
+            background-color: #d0f7f3;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 15px 5px rgba(44, 82, 100, 0.75);
+            position: relative;
+            z-index: 1;
+        }
+     
+     .container {
+         
+     }
+       
+       .portfolio-img {
+           max-width: 45%;
+           height: 150px;
+           padding: 3px;
+           cursor: pointer; /* Добавляем стиль указателя для показа, что изображение можно нажать */
+       }
+
+       .video-link {
+           display: block;
+           margin-bottom: 20px;
+           font-size: 30px;
+           color: blue;
+       }
+       
+       .video-link:hover {
+           color: red;
+       }
+       
+       .video-container {
+           text-align: center;
+           font-size: 45px;
+       }
+       
+       /* Стили для модального окна */
+       .modal {
+           display: none;
+           position: fixed;
+           z-index: 9999;
+           left: 0;
+           top: 0;
+           width: 100%;
+           height: 100%;
+           overflow: auto;
+           background-color: rgba(0, 0, 0, 0.8);
+       }
+       
+       .modal-content {
+           display: block;
+           margin: auto;
+           max-width: 80%;
+           max-height: 80%;
+       }
+       
+       .modal-content img {
+           width: 100%;
+           height: auto;
+       }
+   </style>
+</head>
+<body>
+    <div class="header">
+    <div class="name"> 
+    <h2>AndroidStudio</h2>
+   </div>
+   </div><br><br>
+   <div class="container">
+
+  <h2>"Нерухомість Україна"</h2>
+   <h5>Програма региструє користувачів в базі даних Firebase, та допомогає підготувати необхідні документи для купівлі, чи для продажу нерухомості. Веб вью - перехід до сайтів ЦНАП в кожній області. Також присутній єдиний реєстр нотаріусів України.</h5>
+   <img class="portfolio-img" src="images/realEstateUkraine/img2.png" alt="Фотография 2 ">
+   <img class="portfolio-img" src="images/realEstateUkraine/img6.png" alt="фото 6">
+   <img class="portfolio-img" src="images/realEstateUkraine/img7.png" alt="Фотография 7">
+   <img class="portfolio-img" src="images/realEstateUkraine/img8.png" alt="Фотография 8">
+   <img class="portfolio-img" src="images/realEstateUkraine/img9.png" alt="Фотография 9">
+   <img class="portfolio-img" src="images/realEstateUkraine/img10.png" alt="Фотография 10">
+   <img class="portfolio-img" src="images/realEstateUkraine/img11.png" alt="Фотография 11">
+   <img class="portfolio-img" src="images/realEstateUkraine/img4.png" alt="Фотография 4">
+   <img class="portfolio-img" src="images/realEstateUkraine/img3.png" alt="Фотография 3">   
+   <img class="portfolio-img" src="images/realEstateUkraine/img5.png" alt="Фотография 5">         
+   <img class="portfolio-img" src="images/realEstateUkraine/img12.png" alt="Фотография 12">
+   <img class="portfolio-img" src="images/realEstateUkraine/img13.png" alt="Фотография 13">
+   <img class="portfolio-img" src="images/realEstateUkraine/img1.png" alt="фото 1">  
+
+   <h2 class="video-container">Ссылка на видео</h2>
+   <div class="video-container">
+       <a class="video-link" href="https://www.youtube.com/watch?v=MRXasIRC_tU">Нерухомість Україна</a>
+   </div><br />
+   
+     <div id="modal" class="modal">
+       <span class="close">&times;</span>
+       <img class="modal-content" id="modal-image">
+   </div><br><br>
+
+   <h2>"Помошник сталевара"</h2>
+   <h5>Программа "помощник сталевара", выполняет проверку - соответствия ДСТУ EN расплавленного металла до его заливки. Пользователь вводит вес, дальше - вводит основные химические элементы в % (из лаборатории).Если не соответствует - выдает ответ скольк добавить или убрать хим.эл. в кг. Если попали в ДСТУ-разрешает заливку.</h5>
+   <img class="portfolio-img" src="images/steel assistant/android studio.png" alt="фото 1">
+   <img class="portfolio-img" src="images/steel assistant/img3.png" alt="Фотография ">
+   <img class="portfolio-img" src="images/steel assistant/img1.png " alt="Фотография 3">
+   <img class="portfolio-img" src="images/steel assistant/android studio.png" alt="Фотография 4">
+   <img class="portfolio-img" src="images/steel assistant/kotlin.png" alt="Фотография 5"> 
+
+   <h2 class="video-container">Ссылка на видео</h2>
+   <div class="video-container">
+       <a class="video-link" href="https://youtu.be/MS1r_-BDlvc">Помощник сталевара</a>
+   </div><br />
+   
+     <div id="modal" class="modal">
+       <span class="close">&times;</span>
+       <img class="modal-content" id="modal-image">
+   </div><br><br>
+   
+   <h2>"Teasty food shop"</h2>
+   <h5>Программа написана в Android Studio на языке kotlin, весь дизайн создан в Figma и в точности перенесен в Android. Функционал - возможность скролить по горизонтали и вертикали, переход между 4 активити с активными блоками, добавление удаление товара, добавить в корзину.</h5>
+   <img class="portfolio-img" src="images/food1/food11.png" alt="фото 1">
+   <img class="portfolio-img" src="images/food1/food12.png" alt="Фотография ">
+   <img class="portfolio-img" src="images/food1/food13.png" alt="Фотография 3">
+   <img class="portfolio-img" src="images/food1/food14.png " alt="Фотография 4">
+   <img class="portfolio-img" src="images/food1/food15.png" alt="Фотография 5">
+   <img class="portfolio-img" src="images/food1/food16.png" alt="Фотография 6">
+
+   <h2 class="video-container">Видео в YouTube</h2>
+   <div class="video-container">
+       <a class="video-link" href="https://youtu.be/MptdH9WURRc">Teasty food shop</a>
+   </div><br />
+   
+     <div id="modal" class="modal">
+       <span class="close">&times;</span>
+       <img class="modal-content" id="modal-image">
+   </div>
+   
+    <h2>"Музыкальный плейер"</h2>
+   <h5>Программа музыкальный плейер. Воспроизводит композицию, послушать можно по ссылке на видео.</h5>
+   <img class="portfolio-img" src="images/player/Снимок экрана (228).png" alt="фото 1">
+   <img class="portfolio-img" src="images/player/Снимок экрана (229).png " alt="Фотография ">
+    
+   <h2 class="video-container">Видео в YouTube</h2>
+   <div class="video-container">
+       <a class="video-link" href="https://youtu.be/9x2Ib8SBRdQ">Музыкальный плейер</a>
+   </div><br />
+   
+     <div id="modal" class="modal">
+       <span class="close">&times;</span>
+       <img class="modal-content" id="modal-image">
+   </div>
+   
+    <h2>"Курс обмена валют (интернет)"</h2>
+   <h5>Программа считает разницу курса валют (информация в среднем из интернета). Сейчас добавлены 5 мировых валют, , ,возможно добавить около 100. Минимум дизайна, работа программы на видео.</h5>
+   <img class="portfolio-img" src="images/currency exchange/img1.png " alt="фото 1">
+   <img class="portfolio-img" src="images/currency exchange/img2.png" alt="Фотография ">
+   <img class="portfolio-img" src="images/currency exchange/img3.png" alt="Фотография 3">
+   <img class="portfolio-img" src="images/currency exchange/img4.png" alt="Фотография 4">
+   <img class="portfolio-img" src="images/currency exchange/img5.png" alt="Фотография 5">
+
+   <h2 class="video-container">Видео в YouTube</h2>
+   <div class="video-container">
+       <a class="video-link" href=" https://youtu.be/thTdUpNDZp4">Обмен валют</a>
+   </div><br />
+   
+   <h2>"Курсы (RecyclerView)"</h2>
+   <h5>Это продажа образовательных курсов на сайте. В программе реализован функционал Recycler View, можно парралельно скролить сами картинки курсов, так же подтягиваются время начала курса, их продолжительность, название. <h4>Для просмотра видео - перейдите по ссылке. Для увеличения фотографии - нажмите на нее.</h4></h5>
+   <img class="portfolio-img" src="images/language courses/img1.png " alt="фото 1">
+   <img class="portfolio-img" src="images/language courses/img2.png" alt="Фотография 2">
+   <img class="portfolio-img" src="images/language courses/img3.png" alt="Фотография 3">
+   <img class="portfolio-img" src="images/language courses/img4.png" alt="Фотография 4">
+   <img class="portfolio-img" src="images/language courses/img5.png" alt="Фотография 5">
+   <img class="portfolio-img" src="images/language courses/img6.png" alt="Фотография 6">
+   <img class="portfolio-img" src="images/language courses/img7.png" alt="Фотография 7">
+   <img class="portfolio-img" src="images/language courses/img8.png" alt="Фотография 8">
+
+   <h2 class="video-container">Видео в YouTube</h2>
+   <div class="video-container">
+       <a class="video-link" href="https://youtu.be/PBaVcDgRagc">Курсы языков</a>
+   </div><br />
+   
+     <div id="modal" class="modal">
+       <span class="close">&times;</span>
+       <img class="modal-content" id="modal-image">
+   </div>
+   </div>
+
+   <script>
+       // Получаем все элементы с классом "portfolio-img"
+       const images = document.querySelectorAll('.portfolio-img');
+       
+       // Получаем модальное окно и изображение внутри него
+       const modal = document.getElementById('modal');
+       const modalImage = document.getElementById('modal-image');
+       
+       // Обработчик клика для каждого изображения
+       images.forEach(function(image) {
+           image.addEventListener('click', function() {
+               // Устанавливаем src изображения внутри модального окна
+               modalImage.src = this.src;
+               
+               // Открываем модальное окно
+               modal.style.display = 'block';
+           });
+       });
+       
+       // Обработчик клика для закрытия модального окна
+       const closeBtn = document.querySelector('.close');
+       closeBtn.addEventListener('click', function() {
+           // Закрываем модальное окно
+           modal.style.display = 'none';
+       });
+       
+       // Обработчик клика для закрытия модального окна при клике на задний фон
+       window.addEventListener('click', function(event) {
+           if (event.target === modal) {
+               modal.style.display = 'none';
+           }
+       });
+   </script>
+</body>
+</html>

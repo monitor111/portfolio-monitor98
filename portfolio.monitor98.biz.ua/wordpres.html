@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <title>WordPress</title>
+   <style>
+       /* CSS-стили */
+       .name {
+           text-align: center;
+           font-size: 50px;
+           color: #824237;
+       }
+       
+     body {
+         background: rgba(249,223,174,1);
+background: -moz-linear-gradient(left, rgba(249,223,174,1) 0%, rgba(244,193,98,0.89) 57%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(249,223,174,1)), color-stop(57%, rgba(244,193,98,0.89)));
+background: -webkit-linear-gradient(left, rgba(249,223,174,1) 0%, rgba(244,193,98,0.89) 57%);
+background: -o-linear-gradient(left, rgba(249,223,174,1) 0%, rgba(244,193,98,0.89) 57%);
+background: -ms-linear-gradient(left, rgba(249,223,174,1) 0%, rgba(244,193,98,0.89) 57%);
+background: linear-gradient(to right, rgba(249,223,174,1) 0%, rgba(244,193,98,0.89) 57%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9dfae', endColorstr='#f4c162', GradientType=1 ); 
+         width: 850px;
+         margin: 20px auto;
+         padding: 0 10px;
+         border: 5px solid #edeef7;
+         box-shadow: 0 0 15px 5px rgba(44, 82, 100, 0.75);
+     }
+     
+       .header {
+             
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 15px 5px rgba(44, 82, 100, 0.75);
+            position: relative;
+            z-index: 1;
+        }
+     
+     @media screen and (max-width: 768px) {
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .portfolio-img {
+            max-width: 45%; /* Уменьшим ширину изображений для более компактного отображения на маленьких экранах */
+            margin: 5px; /* Добавим небольшие отступы между изображениями */
+        }
+    }
+
+       
+       .portfolio-img {
+        width: 250px;
+        height: auto;
+           max-width: 45%;
+           height: 150px;
+           padding: 3px;
+           margin-left: 2%;
+           cursor: pointer; /* Добавляем стиль указателя для показа, что изображение можно нажать */
+       }
+
+       .video-link {
+           display: block;
+           margin-bottom: 20px;
+           font-size: 30px;
+           color: blue;
+       }
+       
+       .video-link:hover {
+           color: red;
+       }
+       
+       .video-container {
+           text-align: center;
+           font-size: 45px;
+       }
+       
+       /* Стили для модального окна */
+       .modal {
+           display: none;
+           position: fixed;
+           z-index: 9999;
+           left: 0;
+           top: 0;
+           width: 100%;
+           height: 100%;
+           overflow: auto;
+           background-color: rgba(0, 0, 0, 0.8);
+       }
+       
+       .modal-content {
+           display: block;
+           margin: auto;
+           max-width: 80%;
+           max-height: 80%;
+       }
+       
+       .modal-content img {
+           width: 100%;
+           height: auto;
+       }
+
+       #sampleAdaptive {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#sampleAdaptive a {
+    color: #001b85 !important;
+}
+
+#sampleAdaptive a:hover {
+    color: #2c3e50 !important; /* Цвет при наведении */
+}
+
+   </style>
+</head>
+<body>
+    <div class="header">
+    <div class="name"> 
+    <h2>WordPress</h2>
+   </div>
+   </div><br><br>
+
+   <div class="container">
+
+
+
+
+
+        <h2>"Продаж авто із ЄС в Україні"</h2>
+          <div id="sampleAdaptive">
+            <a href="http://monitor98.rf.gd/" target="_blank">http://monitor98.rf.gd/</a>
+        </div>
+        <h4>Сайт з продажу авто в Україні , привезених із країн ЄС. Реалізован на Ворд Пресс. Адаптивний сайт , перенесений на ВП , створена тема з 0. Додані кастомні поля , реалізован основний функціонал магазина - карточки товарів - весь товар. Створено ядро сайта для SEO , встановлений плагін - сторінки товарів в зеленій.</h4>
+        <img class="portfolio-img" src="images/auto/11.png" alt="фото 1">
+        <img class="portfolio-img" src="images/auto/22.png" alt="фото 2">
+        <img class="portfolio-img" src="images/auto/33.png" alt="фото 3">
+        <img class="portfolio-img" src="images/auto/44.png" alt="фото 4">
+        <img class="portfolio-img" src="images/auto/55.png" alt="фото 5">
+        <img class="portfolio-img" src="images/auto/66.png" alt="фото 6">
+        <img class="portfolio-img" src="images/auto/77.png" alt="фото 7">
+   
+  
+
+        <!-- <h2>"Планетарій Дніпро"</h2>
+          <div id="sampleAdaptive">
+            <a href="http://planetarium.monitor98.biz.ua/" target="_blank">https://monitor98.biz.ua/</a>
+        </div>
+        <h5>Сайт включає блог, де публікуються цікаві статті, новини та враження від найновіших відкриттів у світі астрономії. Відвідувачі можуть знаходити тут цікаву інформацію та ділитися своїми спостереженнями.<br>
+            Написаний на CMS WordPress - через адмінпанель , користувач має можливість змінювани тексти, банери, картинки, додавати пункти меню, створювати сторінки та багато іншого. Доступні плагіни ВордПресс.<br>
+
+Нехай ваш сайт-блог процвітає, надаючи захоплюючі знання про космос та астрономію!</h5>
+        <img class="portfolio-img" src="images/wp/planetarium/img3.png" alt="фото 1">
+        <img class="portfolio-img" src="images/wp/planetarium/img4.png" alt="фото 2">
+        <img class="portfolio-img" src="images/wp/planetarium/img5.png" alt="фото 3">
+        <img class="portfolio-img" src="images/wp/planetarium/img6.png" alt="фото 4">
+        <img class="portfolio-img" src="images/wp/planetarium/img7.png" alt="фото 5">
+        <img class="portfolio-img" src="images/wp/planetarium/img8.png" alt="фото 6">
+        <img class="portfolio-img" src="images/wp/planetarium/img9.png" alt="фото 7">
+        <img class="portfolio-img" src="images/wp/planetarium/img1.png" alt="фото 8">
+        <img class="portfolio-img" src="images/wp/planetarium/img2.png" alt="фото 9"> -->
+
+
+       <h2>"Сайт пластичного хірурга!"</h2>
+          <div id="sampleAdaptive">
+            <a href="https://ogurtsov.expert/" target="_blank">https://ogurtsov.expert/</a>
+        </div>
+        <h3>Це замовлення на фриланс біржі - перенос сайта з тільди на ВордПресс.</h3>
+        <img class="portfolio-img" src="images/wp/ogurzov/2.png" alt="фото 1">
+        <img class="portfolio-img" src="images/wp/ogurzov/3.png" alt="фото 2">
+        <img class="portfolio-img" src="images/wp/ogurzov/4.png" alt="фото 3">
+        <img class="portfolio-img" src="images/wp/ogurzov/5.png" alt="фото 4">
+        <img class="portfolio-img" src="images/wp/ogurzov/6.png" alt="фото 5">
+        <img class="portfolio-img" src="images/wp/ogurzov/7.png" alt="фото 6">
+        <img class="portfolio-img" src="images/wp/ogurzov/8.png" alt="фото 7">
+
+
+
+        <h2>"Інтернет магазин битовой техніки"</h2>
+          <div id="sampleAdaptive">
+            <a href="https://dipl-evg.infy.uk/" target="_blank">https://dipl-evg.infy.uk//</a>
+        </div>
+         <h3>Сайт написан для студента ВУЗА. Реалізован CRUD через інтерфейс, система реєстрації\авторизації. Інтегрована власна адмінка , текстовий редактор.</h3>
+        <img class="portfolio-img" src="images/wp/shopDiplom/1.png" alt="фото 1">
+        <img class="portfolio-img" src="images/wp/shopDiplom/2.png" alt="фото 2">
+        <img class="portfolio-img" src="images/wp/shopDiplom/3.png" alt="фото 3">
+        <img class="portfolio-img" src="images/wp/shopDiplom/4.png" alt="фото 4">
+        <img class="portfolio-img" src="images/wp/shopDiplom/5.png" alt="фото 5">
+
+
+
+
+         <h2>"Чат на різні теми"</h2>
+          <div id="sampleAdaptive">
+            <a href="https://repro.guru/" target="_blank">https://repro.guru/</a>
+        </div>
+         <h3>Реалізаван чат --- реєстрація\авторизація, створення теми з постом, додавання коментарів, можливість підписатися на окремі теми. 
+Адміністратор має доступ до всіх постів , коментарів. Створені рекламні міста\банери - ACF. Це своя тема , перенесена на ВП, створений окремий плагін
+ SurMam Forum</h3>
+        <img class="portfolio-img" src="images/wp/reproGuru/1.png" alt="фото 1">
+        <img class="portfolio-img" src="images/wp/reproGuru/2.png" alt="фото 2">
+        <img class="portfolio-img" src="images/wp/reproGuru/3.png" alt="фото 3">
+        <img class="portfolio-img" src="images/wp/reproGuru/4.png" alt="фото 4">
+        <img class="portfolio-img" src="images/wp/reproGuru/5.png" alt="фото 5">
+       
+   
+     
+   
+     <div id="modal" class="modal">
+       <span class="close">&times;</span>
+       <img class="modal-content" id="modal-image">
+   </div>
+
+   </div>
+
+   <script>
+       // Получаем все элементы с классом "portfolio-img"
+       const images = document.querySelectorAll('.portfolio-img');
+       
+       // Получаем модальное окно и изображение внутри него
+       const modal = document.getElementById('modal');
+       const modalImage = document.getElementById('modal-image');
+       
+       // Обработчик клика для каждого изображения
+       images.forEach(function(image) {
+           image.addEventListener('click', function() {
+               // Устанавливаем src изображения внутри модального окна
+               modalImage.src = this.src;
+               
+               // Открываем модальное окно
+               modal.style.display = 'block';
+           });
+       });
+       
+       // Обработчик клика для закрытия модального окна
+       const closeBtn = document.querySelector('.close');
+       closeBtn.addEventListener('click', function() {
+           // Закрываем модальное окно
+           modal.style.display = 'none';
+       });
+       
+       // Обработчик клика для закрытия модального окна при клике на задний фон
+       window.addEventListener('click', function(event) {
+           if (event.target === modal) {
+               modal.style.display = 'none';
+           }
+       });
+   </script>
+</body>
+</html>

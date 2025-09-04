@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <title>Adaptive Sites</title>
+   <style>
+       /* CSS-стили */
+       .name {
+           text-align: center;
+           font-size: 50px;
+           color: #824237;
+       }
+       
+     body {
+          background: rgba(98,125,77,1);
+background: -moz-linear-gradient(top, rgba(98,125,77,1) 0%, rgba(31,59,8,0.24) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(98,125,77,1)), color-stop(100%, rgba(31,59,8,0.24)));
+background: -webkit-linear-gradient(top, rgba(98,125,77,1) 0%, rgba(31,59,8,0.24) 100%);
+background: -o-linear-gradient(top, rgba(98,125,77,1) 0%, rgba(31,59,8,0.24) 100%);
+background: -ms-linear-gradient(top, rgba(98,125,77,1) 0%, rgba(31,59,8,0.24) 100%);
+background: linear-gradient(to bottom, rgba(98,125,77,1) 0%, rgba(31,59,8,0.24) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', endColorstr='#1f3b08', GradientType=0 ); 
+         width: 850px;
+         margin: 20px auto;
+         padding: 0 10px;
+         border: 5px solid #edeef7;
+         box-shadow: 0 0 15px 5px rgba(44, 82, 100, 0.75);
+     }
+     
+       .header {
+             
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 15px 5px rgba(44, 82, 100, 0.75);
+            position: relative;
+            z-index: 1;
+        }
+     
+     @media screen and (max-width: 768px) {
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .portfolio-img {
+            max-width: 45%; /* Уменьшим ширину изображений для более компактного отображения на маленьких экранах */
+            margin: 5px; /* Добавим небольшие отступы между изображениями */
+        }
+    }
+
+       
+       .portfolio-img {
+        width: 250px;
+        height: auto;
+           max-width: 45%;
+           height: 150px;
+           padding: 3px;
+           margin-left: 2%;
+           cursor: pointer; /* Добавляем стиль указателя для показа, что изображение можно нажать */
+       }
+
+       .video-link {
+           display: block;
+           margin-bottom: 20px;
+           font-size: 30px;
+           color: blue;
+       }
+       
+       .video-link:hover {
+           color: red;
+       }
+       
+       .video-container {
+           text-align: center;
+           font-size: 45px;
+       }
+       
+       /* Стили для модального окна */
+       .modal {
+           display: none;
+           position: fixed;
+           z-index: 9999;
+           left: 0;
+           top: 0;
+           width: 100%;
+           height: 100%;
+           overflow: auto;
+           background-color: rgba(0, 0, 0, 0.8);
+       }
+       
+       .modal-content {
+           display: block;
+           margin: auto;
+           max-width: 80%;
+           max-height: 80%;
+       }
+       
+       .modal-content img {
+           width: 100%;
+           height: auto;
+       }
+
+       #sampleAdaptive {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#sampleAdaptive a {
+    color: #001b85;
+}
+
+#sampleAdaptive a:hover {
+    color: #2c3e50; /* Цвет при наведении */
+}
+
+   </style>
+</head>
+<body>
+    <div class="header">
+    <div class="name"> 
+    <h2>Adaptive sites</h2>
+   </div>
+   </div><br><br>
+
+   <div class="container">
+
+   
+   
+    <h2>"Сайт будівельногї компанії"</h2>
+    <div id="sampleAdaptive"> 
+       <a href="https://exquisite-kringle-0ed215.netlify.app/contact" target="_blank">https://exquisite-kringle-0ed215.netlify.app/contact</a>
+    </div>
+   <h5>
+Наш адаптивний та сучасний веб-сайт будівельної компанії — це віртуальний простір, створений з урахуванням найновіших технологій та вимог сучасного користувача. Його основним перевагою є адаптивний дизайн, який гарантує безперешкодний доступ та зручний перегляд на будь-яких пристроях, починаючи від персональних комп'ютерів і закінчуючи мобільними пристроями <br><br>
+
+Кожна сторінка сайту присвячена конкретній темі, починаючи від наших проектів та послуг і закінчуючи актуальними новинами в галузі будівництва. Великий акцент робиться на інтерактивності: відвідувачі можуть легко знайти необхідну інформацію, взаємодіяти з представниками компанії через форми зворотного зв'язку та отримувати онлайн-консультації.<br><br>
+
+Додатково, сайт вражає візуальною привабливістю завдяки фотографіям завершених проектів, а також забезпечує доступ до детального портфоліо та відгуків клієнтів. За допомогою цього веб-сайту ми прагнемо створити незабутнє враження та забезпечити зручний інструмент для взаємодії з нашою аудиторією.<br></h5>
+        <img class="portfolio-img" src="images/adaptive/build/b1.png" alt="фото 1">
+        <img class="portfolio-img" src="images/adaptive/build/b2.png" alt="фото 2">
+        <img class="portfolio-img" src="images/adaptive/build/b3.png" alt="фото 3">
+        <img class="portfolio-img" src="images/adaptive/build/b4.png" alt="фото 4">
+        <img class="portfolio-img" src="images/adaptive/build/b5.png" alt="фото 5">
+        <img class="portfolio-img" src="images/adaptive/build/b6.png" alt="фото 6">
+        <img class="portfolio-img" src="images/adaptive/build/b7.png" alt="фото 7">
+        <img class="portfolio-img" src="images/adaptive/build/b8.png" alt="фото 8">
+        <img class="portfolio-img" src="images/adaptive/build/b9.png" alt="фото 9">
+        <img class="portfolio-img" src="images/adaptive/build/b9.png" alt="фото 10"><hr>
+    
+
+    
+    
+   
+    
+   <h2>"Погода React"</h2>         
+        <h5>Програма написана на React. Показує погоду в усіх городах світу. Використана работа з API.</h5>
+        <img class="portfolio-img" src="images/adaptive/rw/img1.png" alt="фото 1">
+        <img class="portfolio-img" src="images/adaptive/rw/img2.png" alt="фото 2">
+        <img class="portfolio-img" src="images/adaptive/rw/img3.png" alt="фото 3">
+        <img class="portfolio-img" src="images/adaptive/rw/img4.png" alt="фото 4">
+        <img class="portfolio-img" src="images/adaptive/rw/img5.png" alt="фото 5"><hr>
+
+
+
+        <h2>"Сайт студентки ВУЗа"</h2> 
+    <div id="sampleAdaptive"> 
+       <a href="https://imaginative-pie-6ded5d.netlify.app/" target="_blank">https://imaginative-pie-6ded5d.netlify.app/</a>
+    </div>       
+        <h5>Комерційний проект, по завданню, для студентки 2 курсу - ПРОГРАМНА ІНЖЕНЕРІЯ<br></h5>
+
+        <img class="portfolio-img" src="images/adaptive/titch/1.png" alt="фото 1">
+        <img class="portfolio-img" src="images/adaptive/titch/2.png" alt="фото 2">
+        <img class="portfolio-img" src="images/adaptive/titch/3.png" alt="фото 3">
+        <img class="portfolio-img" src="images/adaptive/titch/4.png" alt="фото 4">
+        <img class="portfolio-img" src="images/adaptive/titch/5.png" alt="фото 5">
+        <img class="portfolio-img" src="images/adaptive/titch/6.png" alt="фото 6">
+        <img class="portfolio-img" src="images/adaptive/titch/7.png" alt="фото 7">
+        <img class="portfolio-img" src="images/adaptive/titch/8.png" alt="фото 8">
+        <img class="portfolio-img" src="images/adaptive/titch/9.png" alt="фото 9"><hr>
+
+
+        <h2>"Адаптивний шаблон сайту"</h2> 
+    <div id="sampleAdaptive"> 
+       <a href="https://cosmic-gecko-534968.netlify.app" target="_blank">https://cosmic-gecko-534968.netlify.app</a>
+    </div>       
+        <h5>Цей адаптивний веб-шаблон – ідеальний вибір для тих, хто прагне представити свої проекти та досягнення в стилі із запаморочливим та сучасним дизайном. Основні особливості: адаптивний дизайн, гнучкі гріди, швидка завантаження та оптимізація для пошукових систем (SEO), легка налаштовується та розширюється.<br></h5>
+
+        <img class="portfolio-img" src="images/adaptive/sample/img1.png" alt="фото 1">
+        <img class="portfolio-img" src="images/adaptive/sample/img2.png" alt="фото 2">
+        <img class="portfolio-img" src="images/adaptive/sample/img3.png" alt="фото 3">
+        <img class="portfolio-img" src="images/adaptive/sample/img4.png" alt="фото 4">
+        <img class="portfolio-img" src="images/adaptive/sample/img5.png" alt="фото 5">
+        <img class="portfolio-img" src="images/adaptive/sample/img6.png" alt="фото 6">
+        <img class="portfolio-img" src="images/adaptive/sample/img7.png" alt="фото 7">
+        <img class="portfolio-img" src="images/adaptive/sample/img8.png" alt="фото 8">
+        <img class="portfolio-img" src="images/adaptive/sample/img9.png" alt="фото 9"><hr>
+
+
+        <h2>"Прокат та продаж каяків, та іншіх плавзасобів"</h2> 
+    <div id="sampleAdaptive"> 
+       <a href="https://startling-stardust-b2de2d.netlify.app/" target="_blank">https://startling-stardust-b2de2d.netlify.app/</a>
+    </div>       
+        <h5>Цей адаптивний веб-шаблон, для сайту прокату каяків – ідеальний вибір для тих, хто прагне представити свої проекти та досягнення в стилі із запаморочливим та сучасним дизайном. Основні особливості: адаптивний дизайн, гнучкі гріди, швидка завантаження та оптимізація для пошукових систем (SEO), легка налаштовується та розширюється.<br></h5>
+
+        <img class="portfolio-img" src="images/adaptive/cayak/img1.png" alt="фото 1">
+        <img class="portfolio-img" src="images/adaptive/cayak/img2.png" alt="фото 2">
+        <img class="portfolio-img" src="images/adaptive/cayak/img3.png" alt="фото 3">
+        <img class="portfolio-img" src="images/adaptive/cayak/img5.png" alt="фото 5">
+        <img class="portfolio-img" src="images/adaptive/cayak/img6.png" alt="фото 6">
+        <img class="portfolio-img" src="images/adaptive/cayak/img7.png" alt="фото 7">
+        <img class="portfolio-img" src="images/adaptive/cayak/img8.png" alt="фото 8">
+        <img class="portfolio-img" src="images/adaptive/cayak/img9.png" alt="фото 9">
+        <img class="portfolio-img" src="images/adaptive/cayak/img10.png" alt="фото 10"><hr>
+
+
+
+    <h2>"Сайт дитячього психолога, на шаблоні bootstrap"</h2> 
+    <div id="sampleAdaptive"> 
+       <a href="https://admirable-pastelito-0561c8.netlify.app/" target="_blank">https://admirable-pastelito-0561c8.netlify.app/</a>
+    </div>       
+        <h5>Цей адаптивний веб-шаблон, школи Емолект. Підготовлений для переноса на CMS WP<br></h5> 
+
+        <img class="portfolio-img" src="images/adaptive/xena/1.png" alt="фото 1">
+        <img class="portfolio-img" src="images/adaptive/xena/2.png" alt="фото 2">
+        <img class="portfolio-img" src="images/adaptive/xena/3.png" alt="фото 3">
+        <img class="portfolio-img" src="images/adaptive/xena/4.png" alt="фото 4">
+        <img class="portfolio-img" src="images/adaptive/xena/5.png" alt="фото 5">
+        <img class="portfolio-img" src="images/adaptive/xena/6.png" alt="фото 6">
+        <img class="portfolio-img" src="images/adaptive/xena/7.png" alt="фото 7"><hr>
+
+
+
+      <h2>"Адаптивний шаблон сайта ресторана , чи системи обслуговування"</h2> 
+    <div id="sampleAdaptive"> 
+       <a href="https://extraordinary-starburst-dbca8f.netlify.app/#" target="_blank">https://extraordinary-starburst-dbca8f.netlify.app/#</a>
+    </div>       
+        <h5>Цей адаптивний веб-шаблон, який можна використати для створення інтернет магазину на CMS , чи як самописний.<br></h5> 
+
+        <img class="portfolio-img" src="images/rest/1.png" alt="фото 1">
+        <img class="portfolio-img" src="images/rest/2.png" alt="фото 2">
+        <img class="portfolio-img" src="images/rest/3.png" alt="фото 3">
+        <img class="portfolio-img" src="images/rest/4.png" alt="фото 4">
+        <img class="portfolio-img" src="images/rest/5.png" alt="фото 5">
+        <img class="portfolio-img" src="images/rest/6.png" alt="фото 6">
+        <img class="portfolio-img" src="images/rest/7.png" alt="фото 7">
+        <hr>
+   
+     
+   
+     <div id="modal" class="modal">
+       <span class="close">&times;</span>
+       <img class="modal-content" id="modal-image">
+   </div>
+
+   </div>
+
+   <script>
+       // Получаем все элементы с классом "portfolio-img"
+       const images = document.querySelectorAll('.portfolio-img');
+       
+       // Получаем модальное окно и изображение внутри него
+       const modal = document.getElementById('modal');
+       const modalImage = document.getElementById('modal-image');
+       
+       // Обработчик клика для каждого изображения
+       images.forEach(function(image) {
+           image.addEventListener('click', function() {
+               // Устанавливаем src изображения внутри модального окна
+               modalImage.src = this.src;
+               
+               // Открываем модальное окно
+               modal.style.display = 'block';
+           });
+       });
+       
+       // Обработчик клика для закрытия модального окна
+       const closeBtn = document.querySelector('.close');
+       closeBtn.addEventListener('click', function() {
+           // Закрываем модальное окно
+           modal.style.display = 'none';
+       });
+       
+       // Обработчик клика для закрытия модального окна при клике на задний фон
+       window.addEventListener('click', function(event) {
+           if (event.target === modal) {
+               modal.style.display = 'none';
+           }
+       });
+   </script>
+</body>
+</html>
+

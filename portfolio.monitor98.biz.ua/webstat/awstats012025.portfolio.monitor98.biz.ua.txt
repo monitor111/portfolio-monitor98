@@ -1,0 +1,593 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202501 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.portfolio.monitor98.biz.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2009                
+POS_TIME 2668                
+POS_VISITOR 12613               
+POS_DAY 16279               
+POS_DOMAIN 3377                
+POS_LOGIN 3610                
+POS_ROBOT 3765                
+POS_WORMS 4279                
+POS_EMAILSENDER 4410                
+POS_EMAILRECEIVER 4553                
+POS_SESSION 16971               
+POS_SIDER 17167               
+POS_FILETYPES 4688                
+POS_DOWNLOADS 4828                
+POS_OS 4876                
+POS_BROWSER 5077                
+POS_SCREENSIZE 6109                
+POS_UNKNOWNREFERER 6183                
+POS_UNKNOWNREFERERBROWSER 6704                
+POS_ORIGIN 6820                
+POS_SEREFERRALS 6957                
+POS_PAGEREFS 7101                
+POS_SEARCHWORDS 7332                
+POS_KEYWORDS 7484                
+POS_MISC 2332                
+POS_ERRORS 7543                
+POS_CLUSTER 3466                
+POS_SIDER_404 7668                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250201085420 1 0 15258333133852
+FirstTime 0
+LastTime 20250131084520
+LastUpdate 20250202044333 1 0 0 0 0
+TotalVisits 111                 
+TotalUnique 91                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 94                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 3 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 4994 1 1 394
+1 7 7 17479 2 18 13583
+2 0 0 0 4 6 20023
+3 9 9 22473 3 14 11953
+4 7 7 18175 2 19 6463
+5 1 1 2497 1 2 388
+6 0 0 0 2 2 8281
+7 7 7 15336 16 18 10528
+8 10 17 25666 1 5 1210
+9 27 147 59142256 76 88 62622
+10 11 11 27467 5 14 32479
+11 7 11 37188 2 11 11488
+12 9 120 59041910 4 11 9940
+13 3 7 27200 10 10 13528
+14 10 10 24970 0 10 0
+15 4 4 9988 2 9 11869
+16 10 10 24970 4 12 4480
+17 8 8 19976 183 192 89938
+18 10 46 21256810 194 228 101995
+19 13 202 97981834 20 59 44722
+20 3 7 27200 13 41 27814
+21 21 461 228348245 2 22 18237
+22 3 3 7491 2 7 21005
+23 4 4 9988 3 3 16168
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 186 1101 466094113
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+no_user_agent 13 86361 20250131201847 0
+curl 9 70983 20250125231623 0
+archive\.org_bot 6 24703 20250123114435 0
+custo 5 39435 20250131212006 0
+LinkedInBot/ 4 16446 20250122221036 0
+bot[\s_+:,\.\;\/\\-] 2 4994 20250115032615 0
+python 2 4994 20250131074649 0
+netcraft 2 15774 20250106190844 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 2497 20250128203437 0
+Googlebot/ 1 3462 20250129022853 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+png 915 465599386 0 0
+php 1 351 0 0
+Unknown 10 2990 0 0
+html 175 491386 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+linuxandroid 53 19
+ios_iphone 1 1
+macosx 2 2
+win7 5 5
+win10 857 84
+linuxubuntu 3 3
+linux 125 17
+macosx10 1 1
+Unknown 53 53
+winlong 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 47
+android 4 4
+chrome124.0.0.0 112 8
+chrome62.0.3202.94 1 1
+opera11.01 1 1
+chrome125.0.6422.114 5 1
+chrome115.0.0.0 1 1
+chrome106.0.0.0 1 0
+netscape5.0 2 2
+chrome132.0.0.0 33 3
+firefox24.0 3 3
+chrome71.0.3578.98 1 1
+safari4.0 1 1
+chrome79.0.3945.79 5 1
+chrome91.0.4472.124 2 2
+opera12.16 1 1
+chrome83.0.4103.61 1 1
+chrome117.0.5938.132 5 1
+safari17.3.1 1 1
+chrome126.0.6478.36 220 6
+chrome131.0.0.0 231 18
+chrome89.0.4389.82 4 4
+chrome49.0.2623.112 2 2
+firefox62.0 1 1
+chrome103.0.5060.114 1 1
+chrome130.0.0.0 1 1
+chrome125.0.6422.142 5 1
+chrome125.0.6422.141 120 5
+msie7.0 1 1
+chrome125.0.0.0 1 1
+firefox132.0 1 1
+chrome59.0.3071.125 2 2
+firefox83.0 2 2
+chrome60.0.3112.107 1 1
+chrome67.0.3396.87 1 1
+firefox27.3 1 1
+chrome100.0.4896.75 18 18
+chrome96.0.4664.93 1 1
+chrome94.0.4606.61 6 6
+chrome110.0.0.0 2 2
+chrome101.0.4951.41 1 1
+chrome127.0.6523.4 115 4
+chrome52.0.2960.98 4 4
+chrome125.0.6422.60 5 1
+mozilla 49 49
+chrome58.0.3029.110 11 11
+Unknown 4 4
+chrome125.0.6422.78 110 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Mozilla/5.0_(compatible) 20250126163208
+Go-http-client/1.1 20250116092317
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20250102075937
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20250130031026
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20250115073942
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20250116092204
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Go-http-client/1.1 20250116092317
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 148 149
+From1 0 0
+From2 0 0
+From3 4 4
+From4 34 948
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+https://www.linkedin.com 2 2
+https://3.105.165.119 1 1
+https://www.atkosar.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+404 656 263553
+403 4 1592
+401 4 2244
+302 12 1656
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 152
+/phpinfo 8 -
+//code.jquery.com/jquery-3.6.0.js/latest/meta-data/public-ipv4/ 2 -
+/aws.env 4 -
+/server 4 -
+//code.jquery.com/jquery-3.6.0.js/latest/meta-data/instance-id/ 2 -
+/frontend/web/debug/default/view 6 -
+/s/038313e243e2431313e2637313/_/ 4 -
+/config.json 6 -
+/blogs/.env 4 -
+/private/config.json 2 -
+/src/.env 4 -
+/config/aws.yml 5 -
+/new/.env 4 -
+/images/wp/ogurtzov/7.png 5 https://portfolio.monitor98.biz.ua/wordpres.html
+/test.php 3 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 4 -
+/local/.env 4 -
+/images/wp/ogurtzov/4.png 5 https://portfolio.monitor98.biz.ua/wordpres.html
+/.DS_Store 4 -
+/bower_components/ 2 -
+/telescope/requests 4 -
+/.env.test 2 -
+/base/.env 4 -
+/.hg/hgrc 2 -
+/.env.example 4 -
+/symfony/public/_profiler/phpinfo 4 -
+/node_modules/ 2 -
+/storage/debugbar/debugbar.json 2 -
+/wp-config.php-backup 6 -
+/aws.yml 5 -
+/download/.env 4 -
+/private/config.ini 2 -
+/apps/.env 4 -
+//code.jquery.com/ui/1.13.2/jquery-ui.js/latest/meta-data/iam/security-credentials/ 2 -
+/_profiler/phpinfo 10 -
+/images/wp/ogurtzov/8.png 5 https://portfolio.monitor98.biz.ua/wordpres.html
+/.vscode/sftp.json 4 -
+//code.jquery.com/ui/1.13.2/jquery-ui.js/latest/meta-data/placement/availability-zone/ 2 -
+//code.jquery.com/jquery-3.6.0.js 38 -
+/audio/.env 4 -
+/debug/default/view 28 -
+/web/debug/default/view 6 -
+/tool/view/phpinfo.view.php 6 -
+/redmine/.env 4 -
+/.env.dev 4 -
+/images/wp/ogurtzov/6.png 5 https://portfolio.monitor98.biz.ua/wordpres.html
+/.env 14 -
+/google9b09df96d82be0d4.html 1 -
+/database/.env 4 -
+/shared/.env 4 -
+/system/settings/.env 2 -
+/.env.php 4 -
+/.env.production 2 -
+/client/.env 4 -
+//code.jquery.com/jquery-3.6.0.js/computeMetadata/v1/instance/service-accounts/default/token 2 -
+/yarn.lock 2 -
+/vendor/.env 4 -
+/config/cache.php 2 -
+/vendor/laravel/.env 4 -
+/actuator/env 4 -
+/newsite/.env 4 -
+/site/.env 4 -
+/debug/bar/view 2 -
+/phpinfo.php 6 -
+/php_info.php 2 -
+/login.action 4 -
+/cgi-bin/.env 4 -
+/v2/_catalog 4 -
+/api/.env 4 -
+/images/wp/ogurtzov/2.png 2 https://portfolio.monitor98.biz.ua/wordpres.html
+/images/wp/ogurtzov/3.png 5 https://portfolio.monitor98.biz.ua/wordpres.html
+/__tests__/test-become/.env 4 -
+/gists/cache 4 -
+/%c0 2 -
+/web/.env 4 -
+/public/info.php 2 -
+/storage/.env 4 -
+/robots.txt 7 -
+/info.php 10 -
+/main/.env 4 -
+/logs/error.log 2 -
+//wp-includes/css/dashicons.min.css 1 www.google.com
+/protected/.env 4 -
+//code.jquery.com/ui/1.13.2/jquery-ui.js/latest/meta-data/instance-id/ 2 -
+/conf/.env 2 -
+/static/admin/javascript/hetong.js 2 -
+/.aws/credentials 5 -
+/symfony/public 4 -
+/.svn/entries 2 -
+/images/wp/ogurtzov/5.png 6 https://portfolio.monitor98.biz.ua/wordpres.html
+/app/config/.env 4 -
+/wordpress/wp-admin/setup-config.php 1 -
+/config.js 5 -
+/.idea/workspace.xml 2 -
+/images/wp/auto/11.png 2 https://portfolio.monitor98.biz.ua/wordpres.html
+/wp-admin/.env 2 -
+//wordpress/wp-includes/css/dashicons.min.css 1 www.google.com
+/sites/.env 4 -
+/.env.staging 2 -
+/package-lock.json 2 -
+/lib/.env 4 -
+/config/database.php 2 -
+/docs/.env 4 -
+/storage/logs/laravel.log 2 -
+/admin/.env 4 -
+/wp-admin/setup-config.php 1 -
+/public/phpinfo.php 2 -
+/config/mail.php 2 -
+//code.jquery.com/ui/1.13.2/jquery-ui.js/metadata/identity/oauth2/token 2 -
+/wp-content/.env 2 -
+/www/.env 4 -
+/.gitignore 2 -
+/about 4 -
+/old/.env 4 -
+/.env.local 2 -
+/.git/ 2 -
+/app/.env 4 -
+/core/.env 4 -
+/uploads/.env 4 -
+/config/app.php 2 -
+//code.jquery.com/jquery-3.6.0.js/latest/meta-data/iam/security-credentials/ 2 -
+/info 3 -
+/wp-login.php 1 -
+//code.jquery.com/ui/1.13.2/jquery-ui.js/latest/meta-data/public-ipv4/ 2 -
+/debug/default/view.html 6 -
+/blog/.env 4 -
+/sendgrid.env 4 -
+/crm/.env 4 -
+/frontend_dev.php 4 -
+/images/player/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(229).png 6 https://portfolio.monitor98.biz.ua/android.html
+/composer.lock 2 -
+/composer.json 2 -
+//code.jquery.com/ui/1.13.2/jquery-ui.js/computeMetadata/v1/instance/service-accounts/default/token 2 -
+/.git/config 24 -
+//code.jquery.com/jquery-3.6.0.js/latest/meta-data/placement/availability-zone/ 2 -
+/.env.bak 7 -
+/backend/.env 4 -
+/.bzr/branch/format 2 -
+/wp-content/ 1 -
+/sites/all/libraries/mailchimp/.env 4 -
+//code.jquery.com/ui/1.13.2/jquery-ui.js 37 -
+/public/.env 4 -
+/sapi/debug/default/view 6 -
+/library/.env 4 -
+/laravel/.env 4 -
+/ads.txt 5 -
+/.config 2 -
+/_all_dbs 4 -
+/private/configuration.yaml 2 -
+/logs/access.log 2 -
+/images/player/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(228).png 6 https://portfolio.monitor98.biz.ua/android.html
+//code.jquery.com/jquery-3.6.0.js/metadata/identity/oauth2/token 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 94
+77.239.160.207 17 233 92397005 20250127084821
+54.88.179.33 13 13 32461 20250119231815
+172.176.75.89 12 345 177094713 20250121193101
+52.165.149.97 8 230 118063142 20250114215207
+88.155.11.30 5 109 64361175 20250114215315
+35.171.144.152 5 5 12485 20250119231815
+173.212.240.93 4 4 9988 20250128111608
+178.128.207.138 4 4 20768 20250116092317
+45.61.146.184 4 4 9988 20250131074649
+47.242.224.70 4 4 9988 20250117162441
+23.178.112.211 1 1 299 20250116092203
+209.97.138.228 2 2 4994 20250112031158
+44.243.234.126 2 2 598 20250116092204
+176.53.216.143 1 1 2497 20250119033241
+159.203.16.155 2 2 4994 20250118033640
+64.94.84.60 1 1 2497 20250123101652
+137.184.118.138 2 2 4994 20250104163615
+34.222.64.44 1 1 351 20250110121013
+138.197.191.87 2 2 10384 20250116092315
+176.53.217.104 1 1 2497 20250117044342
+68.183.245.101 1 1 2497 20250116103312
+159.203.18.189 2 2 4994 20250119144533
+175.41.187.83 1 1 2497 20250117042430
+167.99.210.137 2 2 10384 20250116092316
+185.65.135.177 1 1 2497 20250117013723
+133.242.174.119 1 1 2497 20250116225943
+159.89.167.122 2 2 4994 20250117160801
+205.169.39.45 0 1 3476 
+46.96.73.113 2 25 13734425 20250125191411
+167.71.20.42 2 2 4994 20250123144807
+47.254.16.187 1 1 2497 20250103155758
+87.236.176.17 1 1 2497 20250106223728
+167.94.145.109 1 1 2497 20250112104405
+34.123.170.104 0 1 3969 
+23.178.112.212 1 1 299 20250116092159
+92.118.39.244 1 1 2497 20250121080437
+185.247.137.74 1 1 2497 20250104100209
+193.70.2.92 1 1 2497 20250130203945
+149.102.229.180 1 1 2497 20250117012945
+162.142.125.201 1 1 2497 20250117070408
+185.247.137.245 1 1 2497 20250107015138
+176.53.220.111 1 1 2497 20250119034425
+217.15.164.190 1 1 2497 20250118214046
+206.168.34.220 1 1 2497 20250122184600
+167.94.138.187 1 1 2497 20250105032348
+88.121.247.92 2 2 4994 20250130133052
+176.53.221.122 1 1 2497 20250118050939
+54.91.226.188 2 2 4994 20250131084520
+176.39.36.101 1 5 22206 20250108110948
+16.170.240.149 1 1 299 20250116092159
+64.227.184.67 2 2 4994 20250123144730
+206.168.34.193 1 1 2497 20250130031026
+13.212.218.45 1 1 299 20250116092204
+209.97.137.185 2 2 4994 20250121154121
+35.95.112.155 1 1 2497 20250124110455
+206.168.34.46 1 1 2497 20250130014837
+176.123.3.68 2 2 4994 20250119190131
+206.168.34.69 1 1 2497 20250102220339
+185.247.137.167 1 1 2497 20250115073942
+162.142.125.42 1 1 2497 20250121172910
+106.75.146.146 1 1 7887 20250116095702
+92.118.39.228 1 1 2497 20250124101210
+167.94.146.61 1 1 2497 20250117085641
+142.93.55.227 2 2 4994 20250121172605
+128.90.172.151 1 1 2497 20250116103310
+74.125.213.8 1 1 2497 20250125185819
+54.169.247.60 1 1 299 20250116092200
+103.133.214.36 1 1 2497 20250119165130
+35.207.5.150 3 3 8187 20250131041251
+134.122.101.225 2 2 4994 20250117144452
+106.75.164.149 1 1 7887 20250116095655
+205.169.39.19 1 5 22206 20250116132327
+37.19.218.14 1 1 2497 20250116103310
+43.173.2.12 3 3 7491 20250120160522
+45.90.60.247 1 1 2497 20250117045624
+43.133.144.165 2 2 4994 20250118084510
+104.197.69.115 0 1 3476 
+13.59.0.185 1 1 299 20250116092200
+176.53.217.169 1 1 2497 20250118045709
+66.249.92.139 1 1 354 20250102075937
+159.223.5.50 2 2 4994 20250119143752
+43.134.74.86 3 3 7491 20250118185735
+154.216.20.3 2 2 4994 20250109213417
+13.60.69.47 1 1 299 20250116092204
+159.203.119.142 2 2 4994 20250126163208
+206.168.34.95 1 1 2497 20250102174855
+205.169.39.124 2 6 24703 20250116092348
+66.249.83.74 1 1 2497 20250125185819
+47.129.232.203 1 1 2497 20250128201942
+35.91.60.54 1 1 2497 20250117011532
+207.180.213.68 1 1 2497 20250119170033
+54.75.81.68 2 2 4994 20250126111756
+34.122.147.229 1 3 14761 20250116092329
+18.117.235.163 1 1 299 20250116092204
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20250102 3 3 5348 3
+20250103 1 1 2497 1
+20250104 3 3 7491 2
+20250105 1 1 2497 1
+20250106 1 1 2497 1
+20250107 1 1 2497 1
+20250108 9 124 59063765 4
+20250109 4 4 9988 3
+20250110 1 1 351 1
+20250111 2 73 30005164 1
+20250112 3 3 7491 2
+20250113 1 5 22206 1
+20250114 18 471 252063975 5
+20250115 1 1 2497 1
+20250116 30 43 147873 22
+20250117 20 20 49940 13
+20250118 12 39 5328156 7
+20250119 16 16 39952 10
+20250120 3 3 7491 2
+20250121 10 121 59046553 5
+20250122 2 2 4994 2
+20250123 5 5 12485 3
+20250124 2 2 4994 2
+20250125 14 128 60194588 4
+20250126 3 3 7491 2
+20250127 1 8 3193 1
+20250128 5 5 12485 2
+20250130 5 5 12485 5
+20250131 9 9 23169 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 1
+2mn-5mn 1
+30s-2mn 5
+0s-30s 100
+15mn-30mn 1
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 9
+/ 139 379423 96 88
+/wordpres.html 15 40507 3 5
+/sites.html 7 22575 0 5
+/adaptive.html 7 27755 1 1
+/android.html 6 20772 0 1
+/.well-known/acme-challenge/dGhuUK-dBigJY37RcV_IPTP_tm7H7RtB59sEO4OFdEM 5 1495 5 4
+/.well-known/acme-challenge/R-iIQpW8lCfbfXQHfFUZDv2g4P9Tps3wqRyNw7BrI6w 5 1495 4 5
+/images/wp/gblog/e-commerce.php 1 351 1 1
+/googlea57ed5d778191fe0.html 1 354 1 1
+END_SIDER

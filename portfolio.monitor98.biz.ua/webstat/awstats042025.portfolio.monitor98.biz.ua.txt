@@ -1,0 +1,731 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202504 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.portfolio.monitor98.biz.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2009                
+POS_TIME 2668                
+POS_VISITOR 16393               
+POS_DAY 18695               
+POS_DOMAIN 3349                
+POS_LOGIN 3580                
+POS_ROBOT 3735                
+POS_WORMS 4284                
+POS_EMAILSENDER 4415                
+POS_EMAILRECEIVER 4558                
+POS_SESSION 19216               
+POS_SIDER 19384               
+POS_FILETYPES 4693                
+POS_DOWNLOADS 4798                
+POS_OS 4846                
+POS_BROWSER 5017                
+POS_SCREENSIZE 5430                
+POS_UNKNOWNREFERER 5504                
+POS_UNKNOWNREFERERBROWSER 5966                
+POS_ORIGIN 6048                
+POS_SEREFERRALS 6183                
+POS_PAGEREFS 6327                
+POS_SEARCHWORDS 6475                
+POS_KEYWORDS 6627                
+POS_MISC 2332                
+POS_ERRORS 6686                
+POS_CLUSTER 3436                
+POS_SIDER_404 6799                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250501170624 1 0 10220865398248
+FirstTime 0
+LastTime 20250429224246
+LastUpdate 20250502044112 1 0 0 0 0
+TotalVisits 63                  
+TotalUnique 58                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 58                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 7887 0 0 0
+1 8 8 19976 207 231 107809
+2 2 2 4994 0 0 0
+3 0 0 0 111 125 59195
+4 0 0 0 5 5 19054
+5 1 1 2497 4 4 24055
+6 3 3 7491 2 7 11595
+7 1 1 7887 7 10 23159
+8 2 2 4994 1 5 8669
+9 1 1 2497 3 3 8700
+10 3 3 5348 114 129 65382
+11 8 119 49110059 2 13 11262
+12 3 104 69225000 4 9 25811
+13 2 2 4994 2 7 11559
+14 7 7 39039 2 10 6101
+15 11 61 14020777 371 457 187183
+16 13 13 37851 45 56 28046
+17 3 3 7491 2 9 13867
+18 2 2 4994 3 10 9862
+19 3 3 7491 7 16 19608
+20 8 86 30827356 2 19 13570
+21 1 1 2497 2 4 794
+22 5 5 12485 12 18 12980
+23 2 2 4994 1 4 8280
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 90 430 163368599
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+custo 13 102531 20250430064114 0
+no_user_agent 10 78870 20250428045209 0
+Googlebot/ 7 18947 20250421191650 0
+YandexBot/ 4 13380 20250429141227 0
+netcraft 3 23661 20250407195623 0
+^mozilla\/5\.0$ 2 4994 20250406015256 0
+bot[\s_+:,\.\;\/\\-] 2 4994 20250408035555 0
+curl 1 7887 20250402223229 0
+scanner 1 2497 20250404143040 0
+TelegramBot 1 2497 20250410115644 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 2497 20250422044501 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+html 90 262639 0 0
+png 340 163105960 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+win10 241 35
+macosx 1 1
+win8.1 1 1
+linuxandroid 37 5
+win2003 1 1
+ios_iphone 107 5
+Unknown 38 38
+linux 4 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 18
+nokia 1 1
+chrome103.0.5060.114 2 2
+chrome95.0.4638.69 1 1
+mozilla 38 38
+firefox122.0 1 1
+opera8.88. 1 1
+safari18.3.2 107 5
+chrome117.0.5938.132 5 1
+chrome91.0.4472.124 8 8
+firefox24.0 2 2
+chrome135.0.0.0 176 12
+chrome25.0.1349.2 1 1
+chrome135.0.7049.95 1 1
+chrome60.0.3112.107 1 1
+firefox29.0 1 1
+chrome134.0.0.0 74 4
+chrome104.0.0.0 9 9
+chrome98.0.4758.141 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20250426012524
+Nokia6230i/2.0_(03.80)_Profile/MIDP-2.0_Configuration/CLDC-1.1 20250420201111
+Mozilla/5.0_(compatible) 20250426081358
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20250408100454
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20250429224246
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 78 78
+From1 1 1
+From2 0 0
+From3 0 0
+From4 11 351
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+403 2 784
+401 2 1122
+404 1036 411880
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 377
+/wp-content/themes/sendgrid_keys.json 2 -
+/js/main.js 4 -
+/secrets/sendgrid_keys.json 2 -
+/.vscode/sftp.json 1 -
+/portal/.env 2 -
+/storage/framework/sessions/ 2 -
+/latest/meta-data/iam/security-credentials/ 2 -
+/config.old.php 2 -
+/wp-config.php.bak 2 -
+/docker/.env 6 -
+/db_backup.sql 2 -
+/static/js/main.e85f7a37.js 2 -
+/.git/config 11 -
+/aws-secret.yaml 4 -
+/settings/.env 2 -
+/debug/default/view 4 -
+/wordpress 2 www.google.com
+/app/config/.env 2 -
+/.wp-config.php.swp 2 -
+/apis/controllers/users.js 2 -
+/Dockerfile 2 -
+/src/config.js 2 -
+/main.yml 2 -
+/api/config/config.yml 4 -
+/phpinfo1.php 2 -
+/google9b09df96d82be0d4.html 1 -
+/config.env 4 -
+/.aws/config 4 -
+/sites/all/modules/ 2 -
+/web/wp-includes/wlwmanifest.xml 1 -
+/node_modules/.env 2 -
+/.npmrc 2 -
+/private/sendgrid.json 2 -
+/wordpress/wp-includes/wlwmanifest.xml 1 -
+/php.ini 2 -
+/wp-admin/sendgrid_keys.json 2 -
+/myproject/.env 2 -
+/.git/index 2 -
+/var/logs/dev.log 2 -
+/config/settings.prod 4 -
+/var/logs/prod.log 2 -
+/cron/.env 4 -
+/staging.env 2 -
+/aws.yml 4 -
+/sendgrid.env 2 -
+/config/sendgrid_keys.json 2 -
+/kyc/.env 4 -
+/crm/.env 4 -
+/2021/wp-includes/wlwmanifest.xml 1 -
+/.dockerignore 2 -
+/settings.bak 2 -
+/config/env/sendgrid.env 2 -
+/sitemaps.xml 2 -
+/server-info.php 2 -
+/.env.test 2 -
+/admin/controllers/partner.js 4 -
+/test.php 4 -
+/api/shared/.env 4 -
+/core/.env 4 -
+/logs/error.php 2 -
+/config.json 8 -
+/sendgrid_keys 2 -
+/backup/sendgrid.json 2 -
+/config/sendgrid.py 2 -
+/yarn.lock 2 -
+/config/.env 4 -
+/config.inc.php 2 -
+/configs/s3_config.json 4 -
+/api/shared/config/.env 4 -
+/app/config/parameters.yml 4 -
+/wp-includes/sendgrid_keys.json 2 -
+/temp 1 www.google.com
+/admin/.env 4 -
+/wp-admin/install.php 2 -
+/.env.local 8 -
+/config.yaml 2 -
+/config/private/sendgrid_keys.json 2 -
+/app.py 4 -
+/public/js/main.js 2 -
+/js/.env 4 -
+/wp-content/uploads/wp-mail-smtp/sendgrid_keys.json 2 -
+/server.js 4 -
+/api-docs 2 -
+/config.py 2 -
+/.svn/entries 2 -
+/.git/refs/ 2 -
+/wp-content/plugins/sendgrid_keys.json 2 -
+/storage/framework/views/ 2 -
+/cms/wp-includes/wlwmanifest.xml 1 -
+/var/log/system.log 2 -
+/settings/sendgrid_keys 2 -
+/composer.json 2 -
+/backup/sendgrid_keys 2 -
+/private/sendgrid_config 2 -
+/modules/contrib/sendgrid_mail/sendgrid_mail.module 2 -
+/env.backup 6 -
+/static/admin/javascript/hetong.js 2 -
+/react-app/.env.production 2 -
+/mytest/astech_robot.js 2 -
+/config/local.yml 4 -
+/keys/sendgrid_keys.json 2 -
+/2019/wp-includes/wlwmanifest.xml 1 -
+/.git/logs/ 2 -
+/.aws/credentials 8 -
+/config/packages/sendgrid.yaml 2 -
+/storage/logs/laravel.log 4 -
+/laravel/core/.env 2 -
+/api/v1/proxy 4 -
+/config/sendgrid.json 2 -
+/backend/config/development.yml 4 -
+/wp-content/.env 2 -
+/wp-content/debug.log 2 -
+/api/shared/config.env 4 -
+/helpers/utility.js 2 -
+/my_env/palash.py 2 -
+/backend/config/settings.yml 4 -
+/wp-content/uploads/sendgrid_keys.json 2 -
+/config/settings.json 6 -
+/config/application.yml 4 -
+/2020/wp-includes/wlwmanifest.xml 1 -
+/.env.production 4 -
+/apps/.env 4 -
+/web/.env 2 -
+/xmlrpc.php 3 -
+/.git/packed-refs 2 -
+/var/log/exception.log 2 -
+/.well-known/security.txt 2 -
+/shop/wp-includes/wlwmanifest.xml 1 -
+/api/config.js 4 -
+/proxy 2 -
+/feed/ 1 -
+/app/.env 6 -
+/config/secrets/prod/sendgrid_keys.json 2 -
+/wp-content/sendgrid_keys.json 2 -
+/config/settings/sendgrid_config.json 2 -
+/backup/config.php 2 -
+/react-app/.env 2 -
+/config/settings.local 4 -
+/node/.env_example 2 -
+/wp-config.php 2 -
+/sitemap_index.xml 2 -
+/development.env 2 -
+/storage/sendgrid.json 2 -
+/config/secrets/dev/sendgrid_keys.json 2 -
+/_phpinfo.php 4 -
+/sendgrid.json 2 -
+/wp-includes/ID3/license.txt 1 -
+/xampp/.env 2 -
+/portfolio 1 www.google.com
+/sendgrid_keys.py 2 -
+/backup/sendgrid_config 2 -
+/.git/HEAD 10 -
+/modules/contrib/sendgrid_mail/sendgrid_mail.services.yml 2 -
+/sitemap.xml 1 -
+/administrator/index.php 2 -
+/_profiler/phpinfo 6 -
+/nginx/.env 2 -
+/internal/proxy 4 -
+/sites/default/settings.php 2 -
+/metadata/computeMetadata/v1 2 -
+/vendor/.env 2 -
+/config.yml 2 -
+/env.txt 2 -
+/config/sendgrid.js 2 -
+/app/etc/local.xml 2 -
+/.env.sendgrid 2 -
+/_profiler/phpinfo/info.php 4 -
+/.envs/.production/.django 2 -
+/apis/config/config.js 2 -
+/main/.env 2 -
+/cgi-bin/phpinfo.php 2 -
+/secured/phpinfo.php 2 -
+/web.config 2 -
+/modules/contrib/sendgrid_mail/sendgrid_mail.settings.php 2 -
+/env/.env 4 -
+/laravel/info.php 2 -
+/development/.env 4 -
+/sendgrid_keys.json 2 -
+/config.js 6 -
+/instance/sendgrid_keys.py 2 -
+/wp-config 2 -
+/modules/contrib/sendgrid_mail/translations/sendgrid_mail.fr.po 2 -
+/.circleci/configs/development.yml 4 -
+/www/.env 2 -
+/wp-content/plugins/wp-mail-smtp/sendgrid_keys.json 2 -
+/sendgrid_keys.js 2 -
+/user/controllers/index.js 2 -
+/.env.stage 4 -
+/swagger.json 4 -
+/wp-config-sample.php 2 -
+/.env.production.local 4 -
+/wp-admin/setup-config.php 1 -
+/settings.py 2 -
+/bitrix/php_interface/dbconn.php 2 -
+/database.json 2 -
+/.env_sample 4 -
+/.git/logs/HEAD 2 -
+/karma.conf.json 4 -
+/public/.env 4 -
+/.sendgrid/credentials 2 -
+/site/wp-includes/wlwmanifest.xml 1 -
+/server-info 2 -
+/api/objects/codes.php.save 4 -
+/node-api/.env 2 -
+/home/user/.aws/credentials 2 -
+/.env.dev 2 -
+/prod.env 2 -
+/docker/app/.env 4 -
+/sites/all/themes/ 2 -
+/website/.env 2 -
+/db.ini 2 -
+/awstats/.env 4 -
+/Public/home/js/check.js 2 -
+/my_env/chakaash.py 2 -
+/openapi.json 2 -
+/config/constants.js 4 -
+/backup.sql 2 -
+/dev/.env 4 -
+/_profiler/phpinfo/phpinfo.php 4 -
+/application.yml 2 -
+/old/.env 2 -
+/sftp-config.json 1 -
+/config/config.json 4 -
+/new/.env.local 2 -
+/configuration.php~ 2 -
+/phpinfo.php 6 -
+/phpinfo 4 -
+/main.js 2 -
+/wp-content/backup/sendgrid_keys.json 2 -
+/configs/routes.js 4 -
+/local/.env 2 -
+/config/default.json 2 -
+/cloud/Scraper.js 4 -
+/index.js 4 -
+/mailer/.env 2 -
+/internal/api 4 -
+/config/aws.yml 4 -
+/swagger-ui.html 2 -
+/private/sendgrid_keys 2 -
+/wp-json/wp/v2/users 2 -
+/joomla/configuration.php-dist 2 -
+/config/env/sendgrid_keys.env 2 -
+/admin/proxy 4 -
+/s3.js 2 -
+/site/.env 2 -
+/new/.env.staging 2 -
+/typo3conf/localconf.php 2 -
+/xampp/phpinfo.php 2 -
+/api/.env 7 -
+/lara/phpinfo.php 4 -
+/api/shared/config/config.env 4 -
+/admin/server_info.php 4 -
+/debug.php 2 -
+/admin/config 4 -
+/service/email_service.py 2 -
+/.env.prod 4 -
+/wp 2 www.google.com
+/.travis.yml 4 -
+/config/secrets.yml 2 -
+//code.jquery.com/jquery-3.6.0.js 8 -
+/application/.env 6 -
+/aws/credentials 4 -
+/new/.env.production 2 -
+/.env 9 -
+/library/.env 2 -
+/stage.env 2 -
+/app/etc/env.php 2 -
+/.AWS_/credentials 4 -
+/user/config/config.js 2 -
+/computeMetadata/v1beta1 4 -
+/api/v2/proxy 4 -
+/helper.js 2 -
+/secrets/sendgrid_config 2 -
+/.env.example 6 -
+/config/secrets.json 4 -
+/latest/meta-data 2 -
+/.env.bak 4 -
+/config/database.yml 2 -
+/blog.env 2 -
+/controller/admin/post.js 2 -
+/settings.yaml 2 -
+/admin/internal/api 4 -
+/application.properties 4 -
+/dashboard/phpinfo.php 4 -
+/config/app.php 2 -
+/swagger.js 2 -
+/robots.txt 15 -
+/helper/EmailHelper.js 2 -
+/sitemap.xml.gz 2 -
+/images/player/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(229).png 3 https://portfolio.monitor98.biz.ua/android.html
+/info.php 8 -
+/appsettings.json 4 -
+/api_keys/sendgrid_keys.json 2 -
+/credentials.env 2 -
+/latest/user-data 2 -
+/config/parameters.yml 4 -
+/phpinfo2.php 2 -
+/lara/info.php 4 -
+/old 1 www.google.com
+/nextjs-app/.env 2 -
+/gatsby-config.js 2 -
+/getcpuutil.php-bakworking 2 -
+/.git/objects/ 2 -
+/server/config/database.js 2 -
+/secure-config.json 2 -
+/.gitignore 2 -
+/bootstrap/cache/config.php 2 -
+/static/js/2.ca066a4b.chunk.js 2 -
+/helm/values.yaml 2 -
+/nova-api/styles 2 -
+/core/install.php 2 -
+/partner/config/config.js 2 -
+/config/routes.yaml 2 -
+/storage/framework/cache/ 2 -
+/computeMetadata/v1 4 -
+/secrets/sendgrid.json 2 -
+/api/v1/.env 2 -
+/private/sendgrid_keys.json 2 -
+/conf/.env 4 -
+/blog 1 www.google.com
+/new/.env 2 -
+/.git/branches/ 2 -
+/secrets.json 2 -
+/backend/.env 4 -
+/api/config.env 4 -
+/ads.txt 4 -
+/config/storage.yml 4 -
+//code.jquery.com/ui/1.13.2/jquery-ui.js 8 -
+/controllers/settings.js 2 -
+/admin/controllers/merchant.js 4 -
+/settings/sendgrid_config 2 -
+/web/config.php 2 -
+/backup/sendgrid_keys.json 2 -
+/backend/config/default.yml 4 -
+/static/js/main.141b0494.js 2 -
+/.env.old 4 -
+/server/s3.js 2 -
+/configs/routes-4aug.js 4 -
+/local_settings.py 2 -
+/wordpress/wp-admin/setup-config.php 1 -
+/app_dev.php/_profiler/phpinfo 4 -
+/controller/api/post.js 2 -
+/config/packages/ 2 -
+/prod/.env 2 -
+/sms.py 2 -
+/test 1 www.google.com
+/blog/wp-includes/wlwmanifest.xml 1 -
+/backup.env 2 -
+/api/credentials 2 -
+/mail/.env 2 -
+/wp/wp-includes/wlwmanifest.xml 1 -
+/package.json 2 -
+/test/wp-includes/wlwmanifest.xml 1 -
+/api/proxy 4 -
+/sendgrid_email/.env 2 -
+/api/config.json 2 -
+/server_info.php 2 -
+/backup 1 www.google.com
+/config/production.json 2 -
+/images/player/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(228).png 3 https://portfolio.monitor98.biz.ua/android.html
+/.vscode/.env 4 -
+/new 1 www.google.com
+/wp1/wp-includes/wlwmanifest.xml 1 -
+/app.js 6 -
+/config/sendgrid.php 2 -
+/secrets/sendgrid_keys 2 -
+/scripts/nodemailer.js 2 -
+/laravel/.env 8 -
+/config/settings/sendgrid_keys.json 2 -
+/.sendgrid/config 2 -
+/config/sendgrid_config.json 2 -
+/sendgrid_keys.txt 2 -
+/shared/config/config.js 2 -
+/CHANGELOG.txt 2 -
+/my_env/newsletter.py 2 -
+/auth.json 2 -
+/phpmyadmin/index.php 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 58
+77.239.160.207 9 193 90635094 20250412202738
+154.83.103.107 8 8 19976 20250427153140
+93.170.44.102 5 107 58493915 20250410120008
+134.209.43.137 2 2 4994 20250426081358
+138.197.148.31 2 2 4994 20250403165402
+161.35.43.249 2 2 4994 20250406061845
+3.84.192.114 2 2 4994 20250417153440
+143.244.135.227 2 2 4994 20250420153627
+167.71.4.45 2 2 4994 20250405163033
+157.230.119.48 2 2 4994 20250412130102
+199.45.154.157 1 1 2497 20250419210612
+66.249.92.137 1 1 354 20250408100454
+3.88.181.15 1 1 2497 20250407102009
+109.242.78.144 1 1 2497 20250420235915
+167.99.177.81 1 1 7887 20250405160914
+206.168.34.207 1 1 2497 20250419200305
+206.168.34.34 1 1 2497 20250423185233
+167.94.138.43 1 1 2497 20250419190941
+167.94.146.57 1 1 2497 20250419190129
+44.204.211.3 1 1 2497 20250410014628
+199.45.155.90 1 1 2497 20250407141835
+129.146.24.173 1 1 7887 20250414003125
+88.154.20.52 1 33 7887330 20250425152833
+192.175.111.229 1 1 7887 20250425141832
+18.141.219.173 1 1 2497 20250420201111
+206.168.34.45 1 1 2497 20250419224650
+199.45.154.139 1 1 2497 20250418114308
+145.220.91.19 1 1 2497 20250409190006
+47.254.25.10 1 1 2497 20250412175029
+66.249.70.38 1 1 3709 20250427204059
+167.94.138.174 1 1 2497 20250418102308
+199.45.155.107 1 1 2497 20250419182119
+44.200.28.234 1 1 7887 20250428072143
+64.15.129.101 1 1 7887 20250425141836
+52.54.71.95 1 1 2497 20250409022851
+206.168.34.67 1 1 2497 20250426012524
+87.236.176.80 1 1 2497 20250408051837
+64.15.129.125 1 1 7887 20250425141836
+205.169.39.22 1 5 22206 20250407111010
+3.88.197.40 2 2 4994 20250406164032
+167.94.138.59 1 1 2497 20250424154256
+45.55.142.92 2 2 4994 20250405163626
+15.236.226.221 1 1 2497 20250421221310
+206.168.34.51 1 1 2497 20250425221807
+217.156.123.106 2 2 4994 20250428222422
+167.99.90.12 2 2 4994 20250403164426
+206.168.34.126 1 1 2497 20250423174609
+54.204.99.126 1 1 2497 20250406164031
+199.45.154.140 1 1 2497 20250408161404
+47.254.85.182 1 1 2497 20250412175029
+172.16.0.104 2 20 6113471 20250425153449
+64.15.129.118 1 1 7887 20250425141832
+167.94.138.58 1 1 2497 20250407141840
+206.168.34.121 1 1 2497 20250425230437
+87.236.176.18 1 1 2497 20250429224246
+167.94.138.37 1 1 2497 20250424144526
+98.81.54.4 1 1 2497 20250409022853
+44.203.54.222 2 2 4994 20250410014628
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 22
+20250403 4 4 9988 2
+20250404 4 4 9988 1
+20250405 9 79 30836528 4
+20250406 5 5 12485 3
+20250407 4 8 29697 4
+20250408 3 3 5348 3
+20250409 3 3 7491 3
+20250410 12 220 118317847 4
+20250412 5 13 9988 4
+20250414 1 1 7887 1
+20250417 2 2 4994 2
+20250418 2 2 4994 2
+20250419 6 6 14982 6
+20250420 4 4 9988 3
+20250421 1 1 2497 1
+20250423 2 2 4994 2
+20250424 2 2 4994 2
+20250425 9 59 14037343 8
+20250426 3 3 7491 2
+20250427 6 6 16194 3
+20250428 2 2 10384 2
+20250429 1 1 2497 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+2mn-5mn 1
+5mn-15mn 2
+0s-30s 60
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/ 73 220011 57 55
+/sites.html 6 11127 5 3
+/wordpres.html 5 12831 0 2
+/android.html 3 10386 0 2
+/adaptive.html 2 7930 0 0
+/googlea57ed5d778191fe0.html 1 354 1 1
+END_SIDER

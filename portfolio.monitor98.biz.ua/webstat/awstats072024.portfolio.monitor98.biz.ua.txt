@@ -1,0 +1,436 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202407 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.portfolio.monitor98.biz.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2009                
+POS_TIME 2674                
+POS_VISITOR 9580                
+POS_DAY 12316               
+POS_DOMAIN 3354                
+POS_LOGIN 3586                
+POS_ROBOT 3741                
+POS_WORMS 4308                
+POS_EMAILSENDER 4439                
+POS_EMAILRECEIVER 4582                
+POS_SESSION 12818               
+POS_SIDER 12997               
+POS_FILETYPES 4717                
+POS_DOWNLOADS 4843                
+POS_OS 4891                
+POS_BROWSER 5095                
+POS_SCREENSIZE 5712                
+POS_UNKNOWNREFERER 5786                
+POS_UNKNOWNREFERERBROWSER 6267                
+POS_ORIGIN 6383                
+POS_SEREFERRALS 6520                
+POS_PAGEREFS 6683                
+POS_SEARCHWORDS 6831                
+POS_KEYWORDS 6983                
+POS_MISC 2338                
+POS_ERRORS 7042                
+POS_CLUSTER 3442                
+POS_SIDER_404 7143                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20240801031550 35 8713 11804359990582
+FirstTime 0
+LastTime 20240731233251
+LastUpdate 20240801050138 35 0 34 0 0
+TotalVisits 76                  
+TotalUnique 66                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 70                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 2 2 15774
+2 0 0 0 3 4 24054
+3 10 10 51920 8 19 23470
+4 12 88 47811847 8 24 14891
+5 7 7 41472 13 25 28920
+6 3 3 7491 25 25 44016
+7 4 8 29697 4 8 17771
+8 5 5 34045 12 24 22461
+9 0 0 0 1 3 8677
+10 25 39 117797 36 40 52956
+11 2 40 19307535 9 14 31423
+12 1 2 0 3 4 3672
+13 6 6 10564 3 9 24016
+14 4 4 9988 1 8 10245
+15 8 8 17479 3 6 26558
+16 3 3 5348 9 10 45622
+17 1 1 2497 1 1 388
+18 2 2 4994 5 5 28655
+19 14 100 25017815 1 17 4045
+20 3 14 4168916 1 17 28244
+21 6 110 54889803 7 16 38173
+22 2 2 10384 3 4 8700
+23 9 61 16988394 1 4 8765
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 127 513 168527986
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+no_user_agent 23 181401 20240729141104 0
+custo 18 141966 20240731134718 0
+Googlebot/ 7 19912 20240726112615 0
+Googlebot\-Image/ 5 23555 20240714135346 0
+archive\.org_bot 4 9988 20240728064524 0
+LinkedInBot/ 3 11884 20240719153419 0
+YandexBot/ 2 6462 20240730054733 0
+DotBot/ 2 19540 20240731033425 0
+netcraft 2 15774 20240704183416 0
+bot[\s_+:,\.\;\/\\-] 1 2497 20240728135642 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 7887 20240720102522 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+html 117 415670 0 0
+Unknown 10 2990 0 0
+png 386 168109326 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+win10 152 30
+win7 1 1
+linux 5 1
+macosx 70 32
+linuxubuntu 1 1
+linuxandroid 121 27
+macosx10 2 2
+symbian 1 1
+ios_iphone 139 11
+Unknown 21 21
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 27
+chrome60.0.3112.78 1 1
+chrome125.0.6422.114 5 1
+chrome125.0.6422.175 2 2
+chrome79.0.3945.79 5 1
+chrome59.0.3071.125 4 4
+firefox128.0 40 2
+chrome121.0.0.0 56 18
+chrome94.0.4606.61 6 6
+firefox62.0 2 2
+chrome92.0.4515.159 5 1
+chrome117.0.5938.132 5 1
+safari16.1 139 11
+chrome83.0.4103.61 1 1
+chrome100.0.4896.60 9 9
+chrome126.0.0.0 82 14
+android 4 4
+chrome52.0.2960.98 2 2
+Unknown 2 2
+chrome106.0.0.0 2 0
+chrome125.0.6422.141 99 3
+chrome110.0.0.0 2 2
+chrome58.0.3029.110 2 2
+mozilla 19 19
+chrome79.0.3945.130 2 2
+chrome120.0.0.0 14 14
+chrome118.0.5993.80 2 2
+nokia 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20240704161645
+Go-http-client/1.1 20240720102352
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20240709081327
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20240720102328
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20240725175732
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Go-http-client/1.1 20240720102352
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 110 112
+From1 0 0
+From2 2 2
+From3 0 0
+From4 15 399
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+401 2 1122
+404 174 69370
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 56
+/xmlrpc.php 2 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 2 -
+/images/sites/backand/taxi/10.png 1 https://portfolio.monitor98.biz.ua/sites.html
+/wp-admin/setup-config.php 1 -
+/.vscode/sftp.json 2 -
+/wordpress/wp-admin/setup-config.php 1 -
+/phpinfo 1 -
+/php_info.php 1 -
+/php_info 1 -
+/sitemaps.xml 2 -
+//code.jquery.com/ui/1.13.2/jquery-ui.js 5 -
+/info.php 1 -
+/public/.env 1 -
+/api/.env 1 -
+/google9b09df96d82be0d4.html 1 -
+/images/sites/backand/taxi/7.png 1 https://portfolio.monitor98.biz.ua/sites.html
+/v2/_catalog 2 -
+/images/sites/backand/taxi/8.png 1 https://portfolio.monitor98.biz.ua/sites.html
+/phpinfo.php 1 -
+/images/sites/backand/taxi/1.png 1 https://portfolio.monitor98.biz.ua/sites.html
+/config.json 10 -
+/images/sites/backand/taxi/5.png 1 https://portfolio.monitor98.biz.ua/sites.html
+/images/sites/backand/taxi/9.png 1 https://portfolio.monitor98.biz.ua/sites.html
+/images/sites/backand/taxi/11.png 1 https://portfolio.monitor98.biz.ua/sites.html
+/sitemap.xml 23 -
+/telescope/requests 2 -
+/about 2 -
+/.aws/credentials 1 -
+/_profiler/phpinfo 1 -
+/login.action 2 -
+/s/038313e243e2431313e2637313/_/ 2 -
+/sitemap_index.xml 2 -
+/laravel/.env 1 -
+/_profiler/phpinfo.php 1 -
+/.DS_Store 2 -
+//code.jquery.com/jquery-3.6.0.js 5 -
+/info 1 -
+/images/sites/backand/taxi/2.png 1 https://portfolio.monitor98.biz.ua/sites.html
+/sitemap.txt 2 -
+/images/player/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(228).png 4 https://portfolio.monitor98.biz.ua/android.html
+/images/player/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(229).png 4 https://portfolio.monitor98.biz.ua/android.html
+/debug/default/view 2 -
+/server 2 -
+/images/sites/backand/taxi/6.png 1 https://portfolio.monitor98.biz.ua/sites.html
+/_all_dbs 2 -
+/wp-login.php 4 -
+/images/sites/backand/taxi/3.png 1 https://portfolio.monitor98.biz.ua/sites.html
+/images/sites/backand/taxi/4.png 1 https://portfolio.monitor98.biz.ua/sites.html
+/app/.env 1 -
+/.env 9 -
+/sitemap.xml.gz 2 -
+/.git/config 4 -
+/robots.txt 44 -
+/core/.env 1 -
+/sendgrid.env 1 -
+/.env.example 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 70
+178.136.168.14 13 77 9888917 20240731194352
+80.246.130.13 7 83 47777802 20240715045008
+35.171.144.152 5 5 39435 20240731233251
+20.169.168.224 4 104 54865100 20240706212906
+23.111.114.116 4 4 5570 20240720135127
+80.246.130.123 4 56 16948959 20240714232452
+54.88.179.33 3 3 23661 20240731233251
+46.101.205.42 2 2 4994 20240728063111
+159.65.18.197 2 2 10384 20240720102352
+68.183.46.140 2 2 4994 20240720142239
+176.53.216.222 1 1 2497 20240723034314
+54.169.155.217 1 1 299 20240720102320
+205.169.39.16 0 1 3969 
+47.242.224.70 2 2 4994 20240720182414
+66.249.66.74 1 1 3462 20240709052918
+152.32.156.50 2 2 15774 20240715050357
+199.45.155.88 1 1 2497 20240708221951
+66.249.92.137 1 1 354 20240704161645
+118.193.64.188 2 2 15774 20240708035619
+16.170.210.30 1 1 299 20240720102327
+205.169.39.94 2 6 24703 20240720102616
+87.236.176.228 1 1 2497 20240725175732
+89.104.110.1 1 1 2497 20240721040015
+89.104.100.179 1 1 2497 20240723032246
+89.104.110.76 1 1 2497 20240722032911
+95.217.18.177 2 2 4994 20240720102551
+205.169.39.4 1 5 22206 20240720102553
+87.236.176.217 1 1 2497 20240706052600
+165.22.219.58 2 2 4994 20240723165705
+165.154.18.108 2 2 15774 20240729080209
+66.102.9.165 1 1 2497 20240731194355
+87.236.176.139 1 1 2497 20240704153744
+124.156.214.28 2 2 4994 20240727075156
+23.178.112.101 1 1 299 20240720102326
+118.193.68.150 2 2 15774 20240703044608
+64.227.189.79 2 2 4994 20240714131735
+205.169.39.13 0 1 3476 
+88.99.26.177 2 2 4994 20240720103257
+64.23.252.211 2 2 4994 20240706143543
+134.209.25.199 2 2 10384 20240720102352
+34.122.147.229 0 1 3969 
+118.193.58.20 2 2 15774 20240703045823
+87.236.176.43 1 1 2497 20240705102510
+118.194.236.142 2 2 15774 20240715051425
+161.35.145.178 2 2 4994 20240721152227
+89.64.46.249 2 40 19307535 20240718194314
+88.155.228.117 1 5 22206 20240703192202
+23.178.112.104 1 1 299 20240720102319
+179.43.167.18 1 1 2497 20240722070715
+66.249.81.134 2 2 4994 20240731194355
+199.45.155.98 1 1 2497 20240708215734
+209.38.42.103 2 2 4994 20240721151619
+176.53.220.32 1 1 2497 20240722034829
+13.60.11.47 1 1 299 20240720102320
+199.45.155.99 1 1 2497 20240709072949
+104.197.69.115 0 1 3476 
+35.89.195.112 2 2 598 20240720102328
+66.249.66.75 1 1 3965 20240709052906
+165.154.29.173 2 2 15774 20240729081326
+89.104.110.209 1 1 2497 20240721033748
+162.142.125.33 1 1 2497 20240709081327
+146.70.126.216 2 2 4994 20240720104607
+47.128.254.60 1 1 2497 20240728191806
+34.123.170.104 1 3 14761 20240720102631
+3.22.130.85 2 2 598 20240720102327
+209.198.129.150 2 40 19307535 20240714113631
+54.175.246.226 1 1 7887 20240726220206
+143.198.106.148 2 2 4994 20240723154753
+66.102.9.166 1 1 2497 20240727194107
+54.179.177.200 1 1 299 20240720102327
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 20
+20240703 6 14 75960 4
+20240704 3 3 2851 3
+20240705 1 1 2497 1
+20240706 8 112 54894797 4
+20240708 5 6 20768 4
+20240709 4 4 12421 4
+20240714 8 98 36261488 3
+20240715 11 87 47809350 3
+20240716 2 2 15774 1
+20240718 5 43 19331196 2
+20240720 32 46 130858 19
+20240721 6 6 14982 4
+20240722 3 3 7491 3
+20240723 6 6 14982 4
+20240725 2 6 24703 2
+20240726 1 1 7887 1
+20240727 10 37 5318449 5
+20240728 3 3 7491 2
+20240729 4 4 31548 2
+20240731 7 31 4542493 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+15mn-30mn 1
+30s-2mn 5
+0s-30s 68
+2mn-5mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 8
+/ 99 370044 65 59
+/sites.html 8 13390 0 3
+/.well-known/acme-challenge/D2CYvBz4t6sUzeq7JwNC07FL2GsuwqDP6fj-HHlLiao 5 1495 5 3
+/.well-known/acme-challenge/v8LNK6F5P7k7DppHGuuYiBTcGJm2E5BqEDnK_2p-SGY 5 1495 3 5
+/android.html 4 13848 1 2
+/wordpres.html 3 10104 0 2
+/adaptive.html 2 7930 1 1
+/googlea57ed5d778191fe0.html 1 354 1 1
+END_SIDER
